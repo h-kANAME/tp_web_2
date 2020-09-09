@@ -1,29 +1,39 @@
 # tp_web_2
 
-
-
 Hardware > Mostrar todos los componentes que integra el filtro "Hardware" Emma
-
 Software > Mostrar todos los componentes que integra el filtro "Software" Ricardo
-
 Perifericos > Mostrar todos los componentes que integra el filtro "Perifericos" Brayan
 
-
 Página principal del sitio
-Encabezado: con el logo, el propósito de la página y un menú. El menú debe permitir redirigir a las distintas partes del sitio. El encabezado tiene que estar presente en todas las páginas del sitio.
-Barra lateral de Navegación: con un segundo menú de filtrado de productos. Puede ser que en algunas páginas no esté presente.
+Encabezado: con el logo, el propósito de la página y un menú.
+El menú debe permitir redirigir a las distintas partes del sitio.
+El encabezado tiene que estar presente en todas las páginas del sitio.
+
+Barra lateral de Navegación
+Con un segundo menú de filtrado de productos. Puede ser que en algunas páginas no esté presente.
 Cuerpo principal: con el contenido a mostrar, puede ser un listado de productos, un producto con sus comentarios, un formulario de contáctenos. Al iniciar el sitio, el cuerpo principal debe mostrar los productos destacados. El sitio tiene que tener por lo menos 20 productos, de esos 20 solo debe haber hasta 6 destacados.
 Pie: con los integrantes, número del grupo, materia, año y cuatrimestre. El pie tiene que estar presente en todas las páginas del sitio.
+
+//
 
 Listado de productos
 Página donde se muestra el listado de todos los productos. Cada producto debe estar representado por una imagen pequeña, el nombre del producto, el precio y solo una parte pequeña de la descripción, con las 20 primeras letras.
 Cada producto debe contener un enlace que lleve a la página de detalle del producto.
-Los productos deben estar catalogados por categoría y marca. Debe haber por lo menos 3 categorías y 5 marcas. Cada marca debe contar con productos de las 3 categorías. 
-Se debe poder poder ver un menú (en la barra lateral) con las categorías arriba y las marcas abajo. Se deben incluir las palabras “Categorías” y “Marcas”.
-Seleccionando una categoría se deben mostrar solo los productos de esa categoría. También se debe resaltar dicha categoría en el menú, seguir mostrando la demás categorías y permitir des seleccionar la categoría seleccionada haciendo click en la palabra  “Categorías”. 
+
+Los productos deben estar catalogados por categoría y marca.
+Debe haber por lo menos 3 categorías y 5 marcas.
+Cada marca debe contar con productos de las 3 categorías. 
+
+Se debe poder ver un menú (en la barra lateral) con las categorías arriba y las marcas abajo.
+Se deben incluir las palabras “Categorías” y “Marcas”.
+Seleccionando una categoría se deben mostrar solo los productos de esa categoría.
+Se debe resaltar dicha categoría en el menú, seguir mostrando la demás categorías y permitir des seleccionar la categoría seleccionada haciendo click en la palabra  “Categorías”. 
 Lo mismo debe pasar con las marcas.
-Si se selecciona una categoría, solo se deben ver productos de esa categoría, independientemente de la marca seleccionada. Solo se desactivará el filtro de esa categoría haciendo click en “Categorías”.
-Nuevamente, lo mismo debe pasar con las marcas.
+Si se selecciona una categoría, solo se deben ver productos de esa categoría, independientemente de la marca seleccionada.
+Solo se desactivará el filtro de la categoría haciendo click en “Categorías”.
+Lo mismo debe pasar con las marcas.
+
+//
 
 Detalle del producto
 Página que muestra una foto grande, nombre, descripción, marca y modelo del producto. De no tener “modelo” reemplazarlo por otra característica distintiva.
