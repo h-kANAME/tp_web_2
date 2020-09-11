@@ -3,16 +3,6 @@
 	include_once('inc/header.php');
 ?>
 
-
-<!--Empieza el body-->
-
-<body class="bg-secondary">
-
-	<ul class="nav justify-content-center navbar navbar-dark bg-dark ">
-
-		<a href="/index.html"><img src="/img/logo.png" alt=""> </a>
-	</ul>
-
 	<!--Arranca formulario-->
 	<div class="container bg-dark mb-3 my-3 cardMainColor">
 		<h1 class="col">Contáctanos!</h1>
@@ -66,42 +56,18 @@
 					</form>
 				</div>
 			</div>
-
-			<div class="col">
-				<img src="/img/logo.png" alt="" class="img-fluid">
-				<img
-					src="https://image.freepik.com/vetores-gratis/aplicativos-de-midia-social-em-um-smartphone-midia-social-3d-isometrica_127544-341.jpg"
-					alt="" class="img-fluid my-5">
-			</div>
-
-		</div>
+			<div class="col-md-3">
+								<?php
+									require_once('inc/filtros.php');
+							  ?>
+					</div>
+					</div>
 	</div>
 
-	<!--Cierra formulario-->
-	<div class="container">
-		<div class="row">
-			<div class="col -2">
-				<h1>Asd</h1>
-			</div>
-		</div>
-	</div>
 
 	<!-- Footer -->
 <?php
 	include_once('inc/footer.php');
 ?>
-
-
-	<!-- library -->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-		crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-		crossorigin="anonymous"></script>
-</body>
 
 </html>
