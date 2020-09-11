@@ -23,15 +23,29 @@
 	include_once('inc/destacados.php');
 ?>
 
-<!-- Slide -->
+<!-- Slide Banner -->
 
 <?php
 include_once('inc/slide.php');
 ?>
 
-<!-- Lista de productos -->
+<!-- Lista productos Hardware -->
 
+<?php
+include_once('inc/lista_productos_hardware.php');
+?>
 
+<!--Slide medios de pago-->
+
+<?php
+include_once('inc/slide_medios_de_pago.php');
+?>
+
+<!--Lista productos Software-->
+
+<?php
+include_once('inc/lista_productos_software.php');
+?>
 
 <!-- Footer -->
 <?php
