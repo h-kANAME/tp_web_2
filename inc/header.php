@@ -24,10 +24,10 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active">
-					<a class="nav-link" href="/html/hardware.html">Hardware</a>
+					<a class="nav-link" href="hardware.php">Hardware</a>
 				</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="#">Software</a>
+					<a class="nav-link" href="software.php">Software</a>
 				</li>
 				<li class="nav-item active">
 					<a class="nav-link" href="#">Perifericos</a>
