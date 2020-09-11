@@ -1,40 +1,7 @@
-<!doctype html>
-<html>
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- library -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<link rel="stylesheet" href="/styles.css">
-</head>
-
-<header>
-	<nav class="navbar-expand-lg navbar navbar-dark bg-dark">
-
-		<a class="navbar-brand" href="#">KYZ</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Hardware</a>
-				</li>
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Software</a>
-				</li>
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Perifericos</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-</header>
+<?php
+	include_once('inc/header.php');
+?>
 
 
 <!--Empieza el body-->
@@ -120,37 +87,9 @@
 	</div>
 
 	<!-- Footer -->
-	<footer class="navbar-dark bg-dark" style="color: aliceblue;">
-		<div class="container">
-			<div class="row">
-				<!-- Contenedor del Footer ABRE -->
-				<div class="container text-center text-md-left mt-5">
-					<!-- Inicia grilla del footer-->
-					<div class="row mt-3">
-						<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-							<h6 class="text-uppercase font-weight-bold">Lopez, Emmanuel</h6>
-							<hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-							<p>Grupo Nº6</p>
-							<p>Programacion WEB 2</p>
-							<p>Año 2020</p>
-							<p>Segundo Cuatrimestre</p>
-						</div>
-						<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-							<h6 class="text-uppercase font-weight-bold">Baez Leal, Ricardo Miguel</h6>
-						</div>
-						<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-							<h6 class="text-uppercase font-weight-bold">Rivera Charra, Bryan Sebastian </h6>
-						</div>
-					</div>
-				</div>
-				<!-- Contenedor del Footer cierra -->
-			</div>
-			<div class="text-center py-3">
-				<h6>© 2020 Copyright: WEB-2</h6>
-			</div>
-		</div>
-	</footer>
-	<!-- Footer -->
+<?php
+	include_once('inc/footer.php');
+?>
 
 
 	<!-- library -->

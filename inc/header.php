@@ -33,7 +33,7 @@
 					<a class="nav-link" href="#">Perifericos</a>
 				</li>
 			</ul>
-			<a href="/html/contacto.html"><button class="btn btn-outline-success my-2 my-sm-0"
+			<a href="contacto.php"><button class="btn btn-outline-success my-2 my-sm-0"
 					type="submit">Contacto</button></a>
 		</div>
 	</nav>
@@ -41,3 +41,18 @@
 
 	</ul>
 </header>
+
+<body class="bg-dark">
+	<div class="container">
+		<div class="row">
+					<div class="col-md-3">
+								<?php
+									require_once('inc/filtros.php');
+							  ?>
+			  	</div>
+							<!--Carrousel-->
+							<?php
+									include_once('inc/carrousel.php');
+							 ?>
+		</div>
+	</div>
