@@ -21,21 +21,21 @@ include_once('inc/header.php');
 			</div>
 
 			<table class="table table-striped cardMainColor">
-  <thead>
-    <tr>
-      <th scope="col">Marca</th>
-      <th scope="col">Modelo</th>
-      <th scope="col">Detalles</th>      
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">HYPERX</th>
-      <td>SAVAGE</td>
-      <td>Cositas que tiene</td>     
-    </tr>   
-  </tbody>
-</table>
+				<thead>
+					<tr>
+						<th scope="col">Marca</th>
+						<th scope="col">Modelo</th>
+						<th scope="col">Detalles</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">HYPERX</th>
+						<td>SAVAGE</td>
+						<td>Cositas que tiene</td>
+					</tr>
+				</tbody>
+			</table>
 
 			<div class="card-body">
 				<div class="card-text">
@@ -44,11 +44,7 @@ include_once('inc/header.php');
 						culpa placeat?</h4>
 
 				</div>
-
-
 			</div>
-
-
 		</div>
 
 
@@ -59,3 +55,7 @@ include_once('inc/header.php');
 		</div>
 	</div>
 </div>
+
+<?php
+include_once('inc/footer.php');
+?>
