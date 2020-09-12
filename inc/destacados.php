@@ -10,7 +10,7 @@
 								<div class="d-flex justify-content-between align-items-center">
 									<div class="btn-group">
 										<a href="producto_modelo.php"><button type="button"
-												class="btn btn-sm btn-outline-secondary">Detalles</button></a>
+												class="btn btn-sm btn-outline-danger">Detalles</button></a>
 									</div>
 									<small class="text-muted">Comentario</small>
 								</div>
@@ -26,7 +26,7 @@
 								<div class="d-flex justify-content-between align-items-center">
 									<div class="btn-group">
 										<a href="producto_modelo.php"><button type="button"
-												class="btn btn-sm btn-outline-secondary">Detalles</button></a>
+												class="btn btn-sm btn-outline-danger">Detalles</button></a>
 									</div>
 									<small class="text-muted">Comentario</small>
 								</div>
@@ -42,7 +42,7 @@
 								<div class="d-flex justify-content-between align-items-center">
 									<div class="btn-group">
 										<a href="producto_modelo.php"><button type="button"
-												class="btn btn-sm btn-outline-secondary">Detalles</button></a>
+												class="btn btn-sm btn-outline-danger">Detalles</button></a>
 									</div>
 									<small class="text-muted">Comentario</small>
 								</div>
