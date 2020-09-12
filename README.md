@@ -36,11 +36,16 @@ Lo mismo debe pasar con las marcas.
 //
 
 Detalle del producto
-Página que muestra una foto grande, nombre, descripción, marca y modelo del producto. De no tener “modelo” reemplazarlo por otra característica distintiva.
+Página que muestra una foto grande, nombre, descripción, marca y modelo del producto.
+De no tener “modelo” reemplazarlo por otra característica distintiva.
 Debajo del detalle de cada producto, se tiene que tener la opción de dejar un comentario. 
 Y debajo, se tienen que poder ver los últimos 3 comentarios ordenados de más reciente a más antiguo. 
+
 Comentarios de productos
 Cada comentario debe permitir registrar un email, una descripción del comentario y ranquear el producto entre 1 y 5 estrellas.  Cuando el comentario es ingresado debe ser almacenado en un archivo, junto con el resto de los comentarios.
+
+//
+
 Contáctenos
 Formulario por el cual una persona se pone en contacto con los administradores de la página.
 Este formulario debe tener las siguientes opciones:
