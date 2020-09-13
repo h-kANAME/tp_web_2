@@ -11,7 +11,13 @@ include_once('inc/header.php');
 <div class="container">
 	<div class="row cardMainColor">
 
-		<div class="card body bg-danger col-9">
+	<div class="col md-3">
+			<?php
+				include_once('inc/filtros.php');
+			?>
+		</div>
+
+		<div class="card body bg-danger col-8">
 			<img src="https://www.kindpng.com/picc/m/295-2952973_transparent-hyperx-png-hyper-x-ssd-transparent-png.png"
 				class="card-img-top my-3" alt="...">
 
@@ -48,12 +54,8 @@ include_once('inc/header.php');
 		</div>
 
 
-		<div class="col md-3">
-			<?php
-				include_once('inc/filtros.php');
-			?>
-		</div>
-	</div>
+
+</div>
 </div>
 
 <?php
