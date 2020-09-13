@@ -31,11 +31,6 @@
 		</div>
 	</nav>
 
-
-</header>
-
-<body class="bg-dark">
-
 	<div class="container nvarTwo">
 		<div class="row">
 			<div class="my-3 col-12">
@@ -53,3 +48,8 @@
 			</div>
 		</div>
 	</div>
+
+</header>
+
+<body class="bg-dark">
+
