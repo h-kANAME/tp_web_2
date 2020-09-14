@@ -56,11 +56,7 @@
 					</form>
 				</div>
 			</div>
-			<div class="col-md-3">
-								<?php
-									require_once('inc/filtros.php');
-							  ?>
-					</div>
+
 					</div>
 	</div>
 
