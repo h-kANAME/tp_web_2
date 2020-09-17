@@ -59,4 +59,10 @@ No debe mostrar la barra de navegación de categorías y marcas.
 Archivos
 Todos los productos y sus atributos deben estar almacenados en un archivo. Lo mismo debe pasar con los archivos de marcas, categorías y comentarios. Los datos deben estar almacenados en formato “jSon”. (Se usan archivos como reemplazo a una base de datos.) El archivo de comentarios tiene que tener todos los comentarios de todos los productos, por lo tanto debe ir creciendo a medida que se van dejando comentarios. El resto de los archivos se llenan en la etapa de diseño y no varían de tamaño en forma dinámica. Los correos electrónicos no se almacenan en archivos.
 
+Pautas entrega TP1:
+1)-Maquetado en HTML con todas las partes del sitios enumeradas.
+2)-Separación en archivos PHP. 
+3)-Todos los archivos de datos listos, llenos y en formato jSon, incluido el archivo de comentarios, con 4 comentarios para cada producto.
+4)-Video de hasta 2 minutos en el que uno o más integrantes presenten el sitio, comentando y mostrando la navegación de todas las páginas.
+
 
