@@ -8,6 +8,23 @@ include_once('inc/header.php');
 }
 </style>
 
+
+<?php
+//Corro json productos
+		include_once('inc\productos.php');
+?>
+
+<?php
+//Corro json categorias
+		include_once('inc\categorias.php');
+?>
+
+
+<?php
+//Corro json marcas
+		include_once('inc\marcas.php');
+?>
+
 <div class="container">
 	<div class="row cardMainColor">
 
