@@ -1,8 +1,8 @@
 
-<div class="card">
+<div class="card mt-5">
 					<div id="accordion-side-bar">
 						<div class="card">
-							<div class="card-header bg-danger" id="header-categorias" data-toggle="collapse"
+							<div class="card-header bg-dark" id="header-categorias" data-toggle="collapse"
 								data-target="#collapse-categorias" aria-expanded="true" aria-controls="collapse-categorias">
 								<h6 class="mb-0 colorSide">
 									Categorias
@@ -22,7 +22,7 @@
 							</div>
 						</div>
 						<div class="card">
-							<div class="card-header bg-danger" id="header-marcas" data-toggle="collapse"
+							<div class="card-header bg-dark" id="header-marcas" data-toggle="collapse"
 								data-target="#collapse-marcas" aria-expanded="true" aria-controls="collapse-marcas">
 								<h6 class="mb-0 colorSide">
 									Marcas

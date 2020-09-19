@@ -1,21 +1,31 @@
 <!--Header-->
 <?php
-	require_once('inc/header.php');
+	require_once('inc/barra_navegacion.php');
 ?>
+								<div class="p-5 mx-5">
+								<?php
+									include_once('inc/carrousel.php');
+							 		?>
+								</div>
+									
 
 <div class="container">
 		<div class="row">
-					<div class="col-md-3">
-								<?php
+
+							<div class="col-md-6 x-6">
+									<?php
 									require_once('inc/filtros.php');
-							  ?>
-			  	</div>
-							<!--Carrousel-->
-							<?php
-									include_once('inc/carrousel.php');
-							 ?>
+							  		?>
+							</div>
+							<div class="col-md-6 pt-5">
+							<header>
+        						<h1 class="text-dark text-center pb-4">Tecnologia BER</h1>
+        					</header>
+							</div>
 		</div>
-	</div>
+</div>
+
+
 
 <!--Destacados-->
 

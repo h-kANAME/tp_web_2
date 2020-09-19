@@ -1,36 +1,27 @@
 
-<footer class="navbar-dark bg-secondary my-3" style="color: aliceblue;">
-
-		<div class="container">
-			<div class="row">
-				<!-- Contenedor del Footer ABRE -->
-				<div class="container text-center text-md-left mt-5">
-					<!-- Inicia grilla del footer-->
-					<div class="row mt-3">
-						<!-- Abre integrante 1 + datos de tp -->
-						<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-							<h6 class="text-uppercase font-weight-bold">Lopez, Emmanuel</h6>
-						</div><!-- Cierra integrante 1 + datos de tp -->
-
-						<!-- Abre Dos -->
-						<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-							<h6 class="text-uppercase font-weight-bold">Baez Leal, Ricardo Miguel</h6>
-						</div>
-						<!-- Cierra Dos -->
-
-						<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-							<h6 class="text-uppercase font-weight-bold">Rivera Charra, Bryan Sebastian </h6>
-							<p>Grupo Nº6</p>
-							<p>Programacion WEB 2</p>
-							<p>Año 2020</p>
-							<p>Segundo Cuatrimestre</p>
-						</div>
-						<!-- Cierra Tres -->
-					</div><!-- Cierra grilla del footer-->
-				</div><!-- Contenedor del Footer cierra -->
-			</div>
+ <footer class="bg-dark text-white py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <h3>Integrantes</h3>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link text-white" href="https://www.linkedin.com/in/emmanuel-lopez-4b4061128" target="new">Lopez, Emmanuel</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="https://www.linkedin.com/in/bryan-rivera-23b7311b7/" target="new">Rrivera, Bryan</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="https://www.linkedin.com/in/ricardo-baez-leal-marketing-analyst-lead-generation-1893b3161/" target="new">Baez Leal, Ricardo</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 text-center">
+          <h3>Escuela Davinci</h3>
+		  <img src="img/Davinci.jpg" alt="..." class="img-thumbnail br-2">
 		</div>
-	</footer>
+		<div class="col-12 col-md-6 col-lg-4 text-center">
+          <h3>Fecha de Entrega</h3>
+		  <p>1 de Octubre del 2020</p>
+        </div>
+        
+      </div>
+    </div>
+  </footer>
 
 		<!-- library -->
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

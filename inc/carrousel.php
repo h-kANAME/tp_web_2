@@ -1,7 +1,5 @@
 <div id="carouselExampleCaptions" class="carousel slide col -9 sm-6 my-4" data-ride="carousel">
-		<h1 class="text-center">
-		<a href="index.php"><img src="img/logo.png" alt="logoEmpresa" width="400" height="105"> </a>
-		</h1>
+		
 				<ol class="carousel-indicators">
 					<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
 					<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>

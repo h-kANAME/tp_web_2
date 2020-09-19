@@ -1,7 +1,8 @@
 		<!--Header-->
 		<?php
-include_once('inc/header.php');
+include_once('inc/barra_navegacion.php');
 ?>
+
 
 		<div class="container">
 			<div class="row">
@@ -10,15 +11,17 @@ include_once('inc/header.php');
 		?>
 			</div>
 		</div>
+          
+        <header>
+        <h1 class="text-dark text-center pb-4">Hardware</h1>
+        </header>
 
 		<!--Lista de productos tipo Hardware-->
 
-		<div class="container card body bg-secondary">
+		<div class="container card body bg-dark mb-4  py-4">
 			<div class="row">
 
-				<div class="col-12">
-					<h1 class="cardMainColor">Hardware</h1>
-				</div>
+			
 
 	      <div class="col-md-3" style="float:left">
        <div class="card mb-2">
@@ -28,7 +31,7 @@ include_once('inc/header.php');
             <h4 class="card-title">Producto 4</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
               card's content.</p>
-            <a class="btn btn-primary">Detalles</a>
+            <a class="btn btn-dark">Detalles</a>
           </div>
         </div>
       </div>
@@ -42,7 +45,7 @@ include_once('inc/header.php');
             <h4 class="card-title">Producto 4</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
               card's content.</p>
-            <a class="btn btn-primary">Detalles</a>
+            <a class="btn btn-dark">Detalles</a>
           </div>
         </div>
       </div>
@@ -55,7 +58,7 @@ include_once('inc/header.php');
             <h4 class="card-title">Producto 4</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
               card's content.</p>
-            <a class="btn btn-primary">Detalles</a>
+            <a class="btn btn-dark">Detalles</a>
           </div>
         </div>
       </div>
@@ -69,7 +72,7 @@ include_once('inc/header.php');
             <h4 class="card-title">Producto 4</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
               card's content.</p>
-            <a class="btn btn-primary">Detalles</a>
+            <a class="btn btn-dark">Detalles</a>
           </div>
         </div>
       </div>
@@ -88,7 +91,7 @@ include_once('inc/header.php');
             <h4 class="card-title">Producto 4</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
               card's content.</p>
-            <a class="btn btn-primary">Detalles</a>
+            <a class="btn btn-dark">Detalles</a>
           </div>
         </div>
       </div>
@@ -102,7 +105,7 @@ include_once('inc/header.php');
             <h4 class="card-title">Producto 4</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
               card's content.</p>
-            <a class="btn btn-primary">Detalles</a>
+            <a class="btn btn-dark">Detalles</a>
           </div>
         </div>
       </div>
@@ -116,7 +119,7 @@ include_once('inc/header.php');
             <h4 class="card-title">Producto 4</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
               card's content.</p>
-            <a class="btn btn-primary">Detalles</a>
+            <a class="btn btn-dark">Detalles</a>
           </div>
         </div>
       </div>
@@ -130,7 +133,7 @@ include_once('inc/header.php');
             <h4 class="card-title">Producto 4</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
               card's content.</p>
-            <a class="btn btn-primary">Detalles</a>
+            <a class="btn btn-dark">Detalles</a>
           </div>
         </div>
       </div>
@@ -144,7 +147,7 @@ include_once('inc/header.php');
             <h4 class="card-title">Producto 4</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
               card's content.</p>
-            <a class="btn btn-primary">Detalles</a>
+            <a class="btn btn-dark">Detalles</a>
           </div>
         </div>
       </div>
@@ -158,7 +161,7 @@ include_once('inc/header.php');
             <h4 class="card-title">Producto 4</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
               card's content.</p>
-            <a class="btn btn-primary">Detalles</a>
+            <a class="btn btn-dark">Detalles</a>
           </div>
         </div>
       </div>
@@ -171,13 +174,13 @@ include_once('inc/header.php');
             <h4 class="card-title">Producto 4</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
               card's content.</p>
-            <a class="btn btn-primary">Detalles</a>
+            <a class="btn btn-dark">Detalles</a>
           </div>
         </div>
       </div>
 
 
-      <div class="col-md-3" style="float:left">
+      <div class="col-md-3 " style="float:left">
        <div class="card mb-2">
           <img class="card-img-top"
             src="https://www.venex.com.ar/products_images/1585751676_ssd_240gb_kingston_a400_2.jpg" alt="Card image cap">
@@ -185,7 +188,7 @@ include_once('inc/header.php');
             <h4 class="card-title">Producto 4</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
               card's content.</p>
-            <a class="btn btn-primary">Detalles</a>
+            <a class="btn btn-dark">Detalles</a>
           </div>
         </div>
       </div>
