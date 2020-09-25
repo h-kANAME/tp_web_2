@@ -3,29 +3,18 @@ $categorias = array(
 	
 	0 => array (
 		'id_categoria' => '1',
-		'nombre' => 'Almacenamiento',
+		'nombre' => 'Hardware',
 ),
 
 1 => array (
 	'id_categoria' => '2',
-	'nombre' => 'Almacenamiento',
+	'nombre' => 'Software',
 ),
 
 2 => array (
 	'id_categoria' => '3',
-	'nombre' => 'Almacenamiento',
+	'nombre' => 'Otros',
 ),
-
-3 => array (
-	'id_categoria' => '4',
-	'nombre' => 'Almacenamiento',
-),
-
-4 => array (
-	'id_categoria' => '5',
-	'nombre' => 'Almacenamiento',
-),
-
 
 );
 
