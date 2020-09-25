@@ -1,210 +1,35 @@
-		<!--Header-->
-		<?php
-include_once('inc/barra_navegacion.php');
+<!--Header-->
+<?php
+include_once('inc/header.php');
 ?>
 
-		<div class="container">
-			<div class="row">
-				<?php
+<div class="container">
+	<div class="row">
+		<?php
 			include_once('inc/carrousel.php');
 		?>
-			</div>
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="row">
+		<div class="col -12">
+			<h2 class="text-center">Software</h2>
 		</div>
+	</div>
+</div>
 
-    
-    <header>
-        <h1 class="text-dark text-center pb-4">Software</h1>
-        </header>
+<!-- Soft -->
 
-		
-
-		<div class="container card body bg-dark mb-4  py-4">
-			<div class="row">
-
-			
-
-	      <div class="col-md-3" style="float:left">
-       <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://www.venex.com.ar/products_images/1585751676_ssd_240gb_kingston_a400_2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Producto 4</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <a class="btn btn-dark">Detalles</a>
-          </div>
-        </div>
-      </div>
+<?php
+include_once('inc/lista_productos_software.php');
+?>
 
 
-			<div class="col-md-3" style="float:left">
-       <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://www.venex.com.ar/products_images/1585751676_ssd_240gb_kingston_a400_2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Producto 4</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <a class="btn btn-dark">Detalles</a>
-          </div>
-        </div>
-      </div>
+<!-- Footer -->
 
-      <div class="col-md-3" style="float:left">
-       <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://www.venex.com.ar/products_images/1585751676_ssd_240gb_kingston_a400_2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Producto 4</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <a class="btn btn-dark">Detalles</a>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-md-3" style="float:left">
-       <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://www.venex.com.ar/products_images/1585751676_ssd_240gb_kingston_a400_2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Producto 4</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <a class="btn btn-dark">Detalles</a>
-          </div>
-        </div>
-      </div>
-
-
-
-			</div><!-- /.row -->
-
-			<div class="row">
-
-				<div class="col-md-3" style="float:left">
-       <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://www.venex.com.ar/products_images/1585751676_ssd_240gb_kingston_a400_2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Producto 4</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <a class="btn btn-dark">Detalles</a>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-md-3" style="float:left">
-       <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://www.venex.com.ar/products_images/1585751676_ssd_240gb_kingston_a400_2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Producto 4</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <a class="btn btn-dark">Detalles</a>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-md-3" style="float:left">
-       <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://www.venex.com.ar/products_images/1585751676_ssd_240gb_kingston_a400_2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Producto 4</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <a class="btn btn-dark">Detalles</a>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-md-3" style="float:left">
-       <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://www.venex.com.ar/products_images/1585751676_ssd_240gb_kingston_a400_2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Producto 4</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <a class="btn btn-dark">Detalles</a>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-md-3" style="float:left">
-       <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://www.venex.com.ar/products_images/1585751676_ssd_240gb_kingston_a400_2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Producto 4</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <a class="btn btn-dark">Detalles</a>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-md-3" style="float:left">
-       <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://www.venex.com.ar/products_images/1585751676_ssd_240gb_kingston_a400_2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Producto 4</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <a class="btn btn-dark">Detalles</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3" style="float:left">
-       <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://www.venex.com.ar/products_images/1585751676_ssd_240gb_kingston_a400_2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Producto 4</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <a class="btn btn-dark">Detalles</a>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="col-md-3 " style="float:left">
-       <div class="card mb-2">
-          <img class="card-img-top"
-            src="https://www.venex.com.ar/products_images/1585751676_ssd_240gb_kingston_a400_2.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Producto 4</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-            <a class="btn btn-dark">Detalles</a>
-          </div>
-        </div>
-      </div>
-
-			</div><!-- /.row -->
-
-
-		</div>
-
-
-	
-
-
-		<!-- Footer -->
-
-		<?php
+<?php
 			include_once('inc/footer.php');
 		?>
 
