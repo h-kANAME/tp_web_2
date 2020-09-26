@@ -36,7 +36,7 @@
 							<a class="nav-link text-white" href="software.php">Software</a>
 						</li>
 						<li class="nav-item md-px-3">
-							<a class="nav-link text-white" href="">Otros</a>
+							<a class="nav-link text-white" href="">Perifericos</a>
 						</li>
 						<li class="nav-item md-px-3">
 							<a class="nav-link text-warning" href="contacto.php">Contacto</a>

@@ -7,7 +7,7 @@
 					<li class="nav-item"><a class="nav-link text-white"
 							href="https://www.linkedin.com/in/emmanuel-lopez-4b4061128" target="new">Lopez, Emmanuel</a></li>
 					<li class="nav-item"><a class="nav-link text-white" href="https://www.linkedin.com/in/bryan-rivera-23b7311b7/"
-							target="new">Rrivera, Bryan</a></li>
+							target="new">Rivera, Bryan</a></li>
 					<li class="nav-item"><a class="nav-link text-white"
 							href="https://www.linkedin.com/in/ricardo-baez-leal-marketing-analyst-lead-generation-1893b3161/"
 							target="new">Baez Leal, Ricardo</a></li>
