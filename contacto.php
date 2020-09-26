@@ -29,41 +29,62 @@
 </div>
 
 <!--Arranca formulario-->
-	<div class="container py-4">
-		<div class="row">
-			<div class="col-md-9 mb-md-0 mb-5">
-				<form id="contact-form" name="contact-form" action="mail.php" method="POST">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="md-form mb-0">
-								<label for="name" class="">Nombre</label>
-								<input type="text" id="name" name="name" class="form-control">
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="md-form mb-0">
-								<label for="email" class="">E-mail</label>
-								<input type="text" id="email" name="email" class="form-control">
-							</div>
+<div class="container py-4">
+	<div class="row">
+		<div class="col-md-9 mb-md-0 mb-5">
+			<form id="contact-form" name="contact-form" action="mail.php" method="POST">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="md-form mb-0">
+							<label for="name" class="">Nombre</label>
+							<input type="text" id="name" name="name" class="form-control">
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-md-12 py-4">
-							<div class="md-form">
-								<label for="message">Mensaje</label>
-								<textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-							</div>
+					<div class="col-md-6">
+						<div class="md-form mb-0">
+							<label for="apellido" class="">Apellido</label>
+							<input type="text" id="apellido" name="apellido" class="form-control">
 						</div>
 					</div>
-				</form>
-
-				<div class="text-center text-md-left">
-					<a class="btn btn-dark" onclick="document.getElementById('contact-form').submit();">Send</a>
+					<div class="col-md-6">
+						<div class="md-form mb-0">
+							<label for="telefono" class="">Telefono</label>
+							<input type="text" id="telefono" name="telefono" class="form-control">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="md-form mb-0">
+							<label for="email" class="">E-mail</label>
+							<input type="text" id="email" name="email" class="form-control">
+						</div>
+					</div>
 				</div>
+				<div class="row">
+					<div class="col-md-12 py-4">
+						<label>Area que deseo contactar</label><br>
+						<form>
+							<p>
+								<select sector="sector">
+									<option>Seleccione una Opcion</option>
+									<option>Ventas</option>
+									<option>Soporte Tecnico</option>
+								</select>
+							</p>
+						</form>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 py-3">
+						<label>Mensaje</label>
+						<textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+					</div>
+				</div>
+				<a class="btn btn-dark" onclick="document.getElementById('contact-form').submit();">Enviar</a>
 				<div class="status"></div>
-			</div>
+			</form>
 		</div>
 	</div>
+</div>
 <!-- Footer -->
 <?php
 	include_once('inc/footer.php');

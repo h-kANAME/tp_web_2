@@ -79,6 +79,8 @@ include_once('inc/lista_productos_software.php');
 ?>
 
 <!-- Footer -->
+</div>
+</div>
 <?php
 require_once('inc/footer.php');
 ?>
