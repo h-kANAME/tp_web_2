@@ -30,7 +30,15 @@ $marcas = array(
 	'id_marca' => '6',
 	'nombre' => 'GIGABYTE ',
 ),
-
+//SOFTWARE//
+6 => array (
+	'id_marca' => '7',
+	'nombre' => 'ADOBE',
+),
+7 => array (
+	'id_marca' => '8',
+	'nombre' => 'WINDOWS',
+),
 
 );
 
