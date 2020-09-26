@@ -13,7 +13,7 @@ $categorias = array(
 
 2 => array (
 	'id_categoria' => '3',
-	'nombre' => 'Otros',
+	'nombre' => 'Perifericos',
 ),
 
 );

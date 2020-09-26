@@ -68,6 +68,7 @@
 									<option>Seleccione una Opcion</option>
 									<option>Ventas</option>
 									<option>Soporte Tecnico</option>
+									<option>Recursos Humanos</option>
 								</select>
 							</p>
 						</form>
