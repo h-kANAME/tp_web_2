@@ -11,9 +11,9 @@
 							<div id="collapse-categorias" class="collapse show" aria-labelledby="header-categorias"
 								data-parent="#accordion-side-bar">
 								<div class="card-body">
-									<a href="#"><button type="button"
+									<a href="hardware.php"><button type="button"
 											class="list-group-item list-group-item-action">Hardware</button></a>
-									<a href="#"><button type="button"
+									<a href="software.php"><button type="button"
 											class="list-group-item list-group-item-action">Software</button></a>
 									<a href="#"><button type="button" class="list-group-item list-group-item-action">Perifericos</button></a>
 								</div>
@@ -29,21 +29,21 @@
 							<div id="collapse-marcas" class="collapse show" aria-labelledby="header-marcas"
 								data-parent="#accordion-side-bar">
 								<div class="card-body">
-									<a href="#"><button type="button"
-											class="list-group-item list-group-item-action">HYPERX SAVAGE</button></a>
-									<a href="#"><button type="button"
-											class="list-group-item list-group-item-action">WD BLUE</button></a>
-									<a href="#"><button type="button" class="list-group-item list-group-item-action">CRUCIAL</button></a>
-									<a href="#"><button type="button"
+									<a href="software.php"><button type="button"
+											class="list-group-item list-group-item-action">Windows</button></a>
+									<a href="software.php"><button type="button"
+											class="list-group-item list-group-item-action">Adobe</button></a>
+									<a href="hardware.php"><button type="button" class="list-group-item list-group-item-action">HYPERX SAVAGE</button></a>
+									<a href="hardware.php"><button type="button"
+											class="list-group-item list-group-item-action">WB BLUE</button></a>
+									<a href="hardware.php"><button type="button"
+											class="list-group-item list-group-item-action">CRUCIAL</button></a>
+									<a href="hardware.php"><button type="button"
 											class="list-group-item list-group-item-action">CORSAIR</button></a>
-											<a href="#"><button type="button"
+									<a href="hardware.php"><button type="button"
 											class="list-group-item list-group-item-action">AMD</button></a>
-											<a href="#"><button type="button"
-											class="list-group-item list-group-item-action">GIGABYTE</button></a>
-											<a href="#"><button type="button"
-											class="list-group-item list-group-item-action">ADOBE</button></a>
-											<a href="#"><button type="button"
-											class="list-group-item list-group-item-action">WINDOWS</button></a>
+									<a href="hardware.php"><button type="button"
+											class="list-group-item list-group-item-action">GIGABYTE</button></a>						
 								</div>
 							</div>
 						</div>
