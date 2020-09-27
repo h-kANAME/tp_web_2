@@ -3,6 +3,35 @@
 	require_once('inc/header.php');
 ?>
 
+<?php
+include_once('inc/productos.php');
+$fp = fopen('productos.json','w');
+fwrite($fp, json_encode($productos));
+fclose($fp);
+?>
+
+<?php
+include_once('inc/marcas.php');
+$fp = fopen('marcas.json','w');
+fwrite($fp, json_encode($marcas));
+fclose($fp);
+?>
+
+<?php
+include_once('inc/categorias.php');
+$fp = fopen('categorias.json','w');
+fwrite($fp, json_encode($categorias));
+fclose($fp);
+?>
+
+<?php
+include_once('inc/comentarios.php');
+$fp = fopen('comentarios.json','w');
+fwrite($fp, json_encode($comentarios));
+fclose($fp);
+?>
+
+
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 pt-5">
@@ -44,7 +73,7 @@
 include_once('inc/slide.php');
 ?>
 
-<!-- Lista productos Hardware -->
+<!-- Lista  Hardware -->
 
 <div class="container">
 	<div class="row">

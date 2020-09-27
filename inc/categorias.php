@@ -19,6 +19,6 @@ $categorias = array(
 );
 
  $json_categorias = json_encode($categorias);
-    $file = 'categorias.json';
-    file_put_contents($file, $json_categorias);
+    $fp = 'categorias.json';
+    file_put_contents($fp, $json_categorias);
 ?>

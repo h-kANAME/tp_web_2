@@ -43,6 +43,6 @@ $marcas = array(
 );
 
  $json_marcas = json_encode($marcas);
-    $file = 'marcas.json';
-    file_put_contents($file, $json_marcas);
+    $fp = 'marcas.json';
+    file_put_contents($fp, $json_marcas);
 ?>
