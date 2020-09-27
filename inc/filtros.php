@@ -11,13 +11,11 @@
 							<div id="collapse-categorias" class="collapse show" aria-labelledby="header-categorias"
 								data-parent="#accordion-side-bar">
 								<div class="card-body">
-									<a href="/html/almacenamiento.html"><button type="button"
-											class="list-group-item list-group-item-action">Almacenamiento</button></a>
 									<a href="#"><button type="button"
-											class="list-group-item list-group-item-action">Alimentacion</button></a>
-									<a href="#"><button type="button" class="list-group-item list-group-item-action">Memorias</button></a>
+											class="list-group-item list-group-item-action">Hardware</button></a>
 									<a href="#"><button type="button"
-											class="list-group-item list-group-item-action">Motherboards</button></a>
+											class="list-group-item list-group-item-action">Software</button></a>
+									<a href="#"><button type="button" class="list-group-item list-group-item-action">Perifericos</button></a>
 								</div>
 							</div>
 						</div>
@@ -31,13 +29,21 @@
 							<div id="collapse-marcas" class="collapse show" aria-labelledby="header-marcas"
 								data-parent="#accordion-side-bar">
 								<div class="card-body">
-									<a href="/html/almacenamiento.html"><button type="button"
-											class="list-group-item list-group-item-action">Almacenamiento</button></a>
 									<a href="#"><button type="button"
-											class="list-group-item list-group-item-action">Alimentacion</button></a>
-									<a href="#"><button type="button" class="list-group-item list-group-item-action">Memorias</button></a>
+											class="list-group-item list-group-item-action">HYPERX SAVAGE</button></a>
 									<a href="#"><button type="button"
-											class="list-group-item list-group-item-action">Motherboards</button></a>
+											class="list-group-item list-group-item-action">WD BLUE</button></a>
+									<a href="#"><button type="button" class="list-group-item list-group-item-action">CRUCIAL</button></a>
+									<a href="#"><button type="button"
+											class="list-group-item list-group-item-action">CORSAIR</button></a>
+											<a href="#"><button type="button"
+											class="list-group-item list-group-item-action">AMD</button></a>
+											<a href="#"><button type="button"
+											class="list-group-item list-group-item-action">GIGABYTE</button></a>
+											<a href="#"><button type="button"
+											class="list-group-item list-group-item-action">ADOBE</button></a>
+											<a href="#"><button type="button"
+											class="list-group-item list-group-item-action">WINDOWS</button></a>
 								</div>
 							</div>
 						</div>

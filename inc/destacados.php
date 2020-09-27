@@ -16,7 +16,6 @@
 								<div class="btn-group">
 									<a href="producto_modelo.php"><button type="button" class="btn btn-dark">Detalles</button></a>
 								</div>
-								<small class="text-muted">Comentario</small>
 							</div>
 						</div>
 					</div>
@@ -32,7 +31,6 @@
 								<div class="btn-group">
 									<a href="producto_modelo.php"><button type="button" class="btn btn-dark">Detalles</button></a>
 								</div>
-								<small class="text-muted">Comentario</small>
 							</div>
 						</div>
 					</div>
@@ -48,7 +46,6 @@
 								<div class="btn-group">
 									<a href="producto_modelo.php"><button type="button" class="btn btn-dark">Detalles</button></a>
 								</div>
-								<small class="text-muted">Comentario</small>
 							</div>
 						</div>
 					</div>
@@ -64,7 +61,6 @@
 								<div class="btn-group">
 									<a href="producto_modelo.php"><button type="button" class="btn btn-dark">Detalles</button></a>
 								</div>
-								<small class="text-muted">Comentario</small>
 							</div>
 						</div>
 					</div>

@@ -80,8 +80,9 @@
 						<textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
 					</div>
 				</div>
-				<a class="btn btn-dark" onclick="document.getElementById('contact-form').submit();">Enviar</a>
-				<div class="status"></div>
+				<div class="card-group">
+					<button type="submit" class="btn btn-lg btn-dark">Enviar</button>
+				</div>
 			</form>
 		</div>
 	</div>

@@ -27,7 +27,7 @@
 				<div class="collapse navbar-collapse md-pt-4 mdx-5 lg-pt-1 sm-pt-5" id="navbarNavDropdown">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item md-px-3">
-							<a class="nav-link text-white" href="index.php">Inicio</a>
+							<a class="nav-link text-white" href="lista_productos.php">Lista de productos</a>
 						</li>
 						<li class="nav-item md-px-3">
 							<a class="nav-link text-white" href="hardware.php">Hardware</a>
@@ -36,7 +36,7 @@
 							<a class="nav-link text-white" href="software.php">Software</a>
 						</li>
 						<li class="nav-item md-px-3">
-							<a class="nav-link text-white" href="">Perifericos</a>
+							<a class="nav-link text-white" href="perifericos.php">Perifericos</a>
 						</li>
 						<li class="nav-item md-px-3">
 							<a class="nav-link text-warning" href="contacto.php">Contacto</a>
