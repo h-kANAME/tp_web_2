@@ -19,7 +19,7 @@
 	<Section>
 		<nav class="navbar navbar-expand-md navbar-light bg-dark ">
 			<div class="container ml-6 px-5">
-				<a class="navbar-brand text-white" href="index.php">Tecnologia BER</a>
+				<a class="navbar-brand text-white" href="index.php"><img src="img/logoBer.png" alt=""></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
 					aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
