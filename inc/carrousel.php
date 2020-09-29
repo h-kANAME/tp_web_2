@@ -7,14 +7,14 @@
 				</ol>
 				<div class="carousel-inner cardMainColor my-4">
 					<div class="carousel-item active">
-						<img src="https://powertecnic.com.uy/wp-content/uploads/2019/12/Slider-11.jpg" class="img-fluid" alt="...">
+						<img src="img/hardware_slide.jpg" class="img-fluid" alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="https://powertecnic.com.uy/wp-content/uploads/2019/12/Slider-11.jpg" class="d-block w-100"
+						<img src="img/software_slide.jpg" class="img-fluid"
 							alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="img/logitech_slide.jpg" class="d-block w-100"
+						<img src="img/perifericos_slide.jpg" class="img-fluid"
 							alt="...">
 					</div>
 				</div>
