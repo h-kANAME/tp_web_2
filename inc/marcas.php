@@ -1,14 +1,14 @@
 <?php
 $marcas = array(
 	
-	0 => array (
-		'id_marca' => '1',
-		'nombre' => 'HYPERX SAVAGE',
+0 => array (
+	'id_marca' => '1',
+	'nombre' => 'HYPERX SAVAGE',
 ),
 
 1 => array (
 	'id_marca' => '2',
-	'nombre' => 'WB BLUE',
+	'nombre' => 'WD BLUE',
 ),
 
 2 => array (
@@ -39,7 +39,19 @@ $marcas = array(
 	'id_marca' => '8',
 	'nombre' => 'WINDOWS',
 ),
-
+//PERIFERICOS//
+8 => array (
+	'id_marca' => '9',
+	'nombre' => 'LOGITECH',
+),
+9 => array (
+	'id_marca' => '10',
+	'nombre' => 'ZOWIE',
+),
+10 => array (
+	'id_marca' => '11',
+	'nombre' => 'SteelSeries',
+),
 );
 
  $json_marcas = json_encode($marcas);

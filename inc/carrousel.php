@@ -14,7 +14,7 @@
 							alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="https://powertecnic.com.uy/wp-content/uploads/2019/12/Slider-11.jpg" class="d-block w-100"
+						<img src="img/logitech_slide.jpg" class="d-block w-100"
 							alt="...">
 					</div>
 				</div>
