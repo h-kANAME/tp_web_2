@@ -1,6 +1,6 @@
 <div class="container mb-4  py-4">
 	<div class="row">
-		<div class="col-md-3" style="float:left">
+		<div class="col-md-3">
 			<div class="card mb-2">
 				<img class="card-img-top"
 					src="https://www.venex.com.ar/products_images/1585751676_ssd_240gb_kingston_a400_2.jpg" alt="Card image cap">
@@ -18,7 +18,7 @@
 		</div>
 
 
-		<div class="col-md-3" style="float:left">
+		<div class="col-md-3">
 			<div class="card mb-2">
 				<img class="card-img-top"
 					src="https://www.venex.com.ar/products_images/1585751676_ssd_240gb_kingston_a400_2.jpg" alt="Card image cap">
@@ -35,7 +35,7 @@
 			</div>
 		</div>
 
-		<div class="col-md-3" style="float:left">
+		<div class="col-md-3">
 			<div class="card mb-2">
 				<img class="card-img-top"
 					src="https://www.venex.com.ar/products_images/1585751676_ssd_240gb_kingston_a400_2.jpg" alt="Card image cap">
@@ -53,7 +53,7 @@
 		</div>
 
 
-		<div class="col-md-3" style="float:left">
+		<div class="col-md-3">
 			<div class="card mb-2">
 				<img class="card-img-top"
 					src="https://www.venex.com.ar/products_images/1585751676_ssd_240gb_kingston_a400_2.jpg" alt="Card image cap">
@@ -76,7 +76,7 @@
 
 	<div class="row">
 
-		<div class="col-md-3" style="float:left">
+		<div class="col-md-3">
 			<div class="card mb-2">
 				<img class="card-img-top"
 					src="https://www.venex.com.ar/products_images/1585751676_ssd_240gb_kingston_a400_2.jpg" alt="Card image cap">
@@ -94,7 +94,7 @@
 		</div>
 
 
-		<div class="col-md-3" style="float:left">
+		<div class="col-md-3">
 			<div class="card mb-2">
 				<img class="card-img-top"
 					src="https://www.venex.com.ar/products_images/1585751676_ssd_240gb_kingston_a400_2.jpg" alt="Card image cap">
@@ -112,7 +112,7 @@
 		</div>
 
 
-		<div class="col-md-3" style="float:left">
+		<div class="col-md-3">
 			<div class="card mb-2">
 				<img class="card-img-top"
 					src="https://www.venex.com.ar/products_images/1585751676_ssd_240gb_kingston_a400_2.jpg" alt="Card image cap">
@@ -130,7 +130,7 @@
 		</div>
 
 
-		<div class="col-md-3" style="float:left">
+		<div class="col-md-3">
 			<div class="card mb-2">
 				<img class="card-img-top"
 					src="https://www.venex.com.ar/products_images/1585751676_ssd_240gb_kingston_a400_2.jpg" alt="Card image cap">
