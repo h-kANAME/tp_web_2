@@ -1,3 +1,64 @@
+<?php
+
+include_once('inc/marcas.php');
+include_once('inc/categorias.php');
+
+$ESTA_PAG = 'lista_productos.php';
+
+if (isset($_REQUEST['id_marca']))
+    $id_marca = $_REQUEST['id_marca'];
+else
+    $id_marca = '';
+
+if (isset($_REQUEST['id_categoria']))
+    $id_categoria = $_REQUEST['id_categoria'];
+else
+		$id_categoria = ''; 
+
+	//	$productos = json_decode(file_get_contents('productos.json'), true);
+		$marcas = json_decode(file_get_contents('marcas.json'), true);
+		$categorias = json_decode(file_get_contents('categorias.json'), true);
+
+		//Funcion de filtrado
+
+		echo '<ul>';
+    echo '<li>';
+    echo '<a href="'.$ESTA_PAG.'?id_marca=&id_categoria='.$id_categoria.'">Marcas</a><br>';
+		echo '</li>';
+	echo '<ul>';
+	foreach ($marcas as $a_marca) {
+		echo '<li>';
+			echo '<a href="'.$ESTA_PAG .'?id_marca='. $a_marca['id_marca'].'&id_categoria='. $id_categoria .'">'. $a_marca['nombre']. '</a><br>';
+				echo '</li>';
+			};
+	echo '</ul>';
+	  echo '</ul>';
+
+
+echo '<ul>';
+    echo '<li>';
+    echo '<a href="'.$ESTA_PAG.'?id_categoria=&id_marca='.$id_marca.'">Categorias</a><br>';
+    echo '</li>';
+        echo '<ul>';
+foreach ($categorias as $a_categoria) {
+            echo '<li>';
+            echo '<a href="'.$ESTA_PAG .'?id_categoria='. $a_categoria['id_categoria'] . '&id_marca='. $id_marca .'">'. $a_categoria['nombre'].'</a><br>';
+            echo '</li>';
+        }
+    
+ $productos = json_decode(file_get_contents('productos.json'), true);
+ foreach ($productos as $a_producto) {
+     if (($a_producto['id_categoria'] == $id_categoria || $id_categoria =='')&&($a_producto['id_marca'] == $id_marca || $id_marca =='')){
+						
+						 echo '<pre>';
+             print_r($a_producto);
+             echo '</pre><hr>';
+     }
+ } 
+?>
+
+
+<!--
 <div class="card mt-5">
 	<div id="accordion-side-bar">
 		<div class="card">
@@ -53,3 +114,4 @@
 		</div>
 	</div>
 </div>
+-->
