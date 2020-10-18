@@ -60,3 +60,8 @@ Archivos
 Todos los productos y sus atributos deben estar almacenados en un archivo. Lo mismo debe pasar con los archivos de marcas, categorías y comentarios. Los datos deben estar almacenados en formato “jSon”. (Se usan archivos como reemplazo a una base de datos.) El archivo de comentarios tiene que tener todos los comentarios de todos los productos, por lo tanto debe ir creciendo a medida que se van dejando comentarios. El resto de los archivos se llenan en la etapa de diseño y no varían de tamaño en forma dinámica. Los correos electrónicos no se almacenan en archivos.
 
 
+//
+
+Segunda entrega PAUTAS
+
+Sitio funcionando 100%

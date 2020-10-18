@@ -46,57 +46,35 @@
 <div class="container py-4">
 	<div class="row">
 		<div class="col-md-9 mb-md-0 mb-5">
-			<form id="contact-form" name="contact-form" action="mail.php" method="POST">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="md-form mb-0">
-							<label for="name" class="">Nombre</label>
-							<input type="text" id="name" name="name" class="form-control">
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="md-form mb-0">
-							<label for="apellido" class="">Apellido</label>
-							<input type="text" id="apellido" name="apellido" class="form-control">
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="md-form mb-0">
-							<label for="telefono" class="">Telefono</label>
-							<input type="text" id="telefono" name="telefono" class="form-control">
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="md-form mb-0">
-							<label for="email" class="">E-mail</label>
-							<input type="text" id="email" name="email" class="form-control">
-						</div>
-					</div>
+			<form method="POST" action="envios.php">
+				<div class="form-group">
+					<input name="nombre" type="text" class="form-control" placeholder="Nombre">
 				</div>
-				<div class="row">
-					<div class="col-md-12 py-4">
-						<label>Area que deseo contactar</label><br>
-						<form>
-							<p>
-								<select sector="sector">
-									<option>Seleccione una Opcion</option>
-									<option>Ventas</option>
-									<option>Soporte Tecnico</option>
-									<option>Recursos Humanos</option>
-								</select>
-							</p>
-						</form>
-					</div>
+				<div class="form-group">
+					<input name="apellido" type="text" class="form-control" placeholder="Apellido">
 				</div>
-				<div class="row">
-					<div class="col-md-12 py-3">
-						<label>Mensaje</label>
-						<textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-					</div>
+				<div class="form-group">
+					<input name="telefono" type="text" class="form-control" placeholder="Teléfono">
 				</div>
-				<div class="card-group">
-					<button type="submit" class="btn btn-lg btn-dark">Enviar</button>
+				<div class="form-group">
+					<input name="correo" type="email" class="form-control" placeholder="Correo electrónico">
 				</div>
+				<div class="form-group">
+
+					<select class="mdb-select md-form">
+						<option value="" disabled selected>Indique con qué área de la empresa desea contactarse</option>
+						<option value="1" name="soporte">Soporte Técnico</option>
+						<option value="2" name="ventas">Ventas</option>
+						<option value="3" name="otros">Otros</option>
+					</select>
+
+				</div>
+				<div class="form-group">
+					<textarea placeholder="Escribe Mensaje" class="form-control" name="mensaje" id="mensaje" cols="30"
+						rows="5"></textarea>
+				</div>
+				<div class="form-group">
+					<button class="btn btn-lg btn-dark" type="submit">Enviar</button>
 			</form>
 		</div>
 	</div>
