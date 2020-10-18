@@ -20,6 +20,8 @@
 			<div class="col-12 col-md-6 col-lg-4 text-center">
 				<h3>Fecha de Entrega</h3>
 				<p>1 de Octubre del 2020</p>
+				<p> <a href="https://github.com/h-kANAME/tp_web_2.git" target="_blank"><img
+							src="img/gitGubLogo.png" width="50" height="50" alt=""></a></p>
 			</div>
 		</div>
 	</div>

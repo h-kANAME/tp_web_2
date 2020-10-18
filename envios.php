@@ -16,37 +16,38 @@ $mail->Port = 587;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth= true;
 $mail->Username = "luis.lopez@davinci.edu.ar";
-$mail->Password = '4848Lopez';
+$mail->Password = '/';
 $mail->SetFrom('luis.lopez@davinci.edu.ar', 'Emmanuel Lopez');
 $mail->addAddress($_POST["correo"]); //Remitente
-$mail->addBCC('luis.lopez@davinci.edu.ar'); // Copia oculta
+//$mail->addBCC('luis.lopez@davinci.edu.ar'); // Copia oculta
 $mail->isHTML(true);
 //$mail->Subject = 'Formulario enviado desde el sitio Tecnologia BER';
+$sector = $_POST['area'];
+//$sector = 'ventas';
 
-//$sector = $_POST['value'];
-$sector = 'ventas';
-
-if($sector == 'soporte'){
+if($sector == '1'){
 	$sector = 'Soporte Técnico';
-}else if ($sector == 'ventas'){
+	$mail->addBCC('luis.lopez@davinci.edu.ar');
+}else if ($sector == '2'){
 	$sector = 'Ventas';
-}else if ($sector == 'otros'){
+	$mail->addBCC('luis.lopez@davinci.edu.ar');
+}else if ($sector == '3'){
 	$sector = 'Otros';
+	$mail->addBCC('luis.lopez@davinci.edu.ar');
 }else{
 	$sector = 'No definido por el cliente';
+	$mail->addBCC('luis.lopez@davinci.edu.ar');
 }
 //$mail->Body =($_POST['mensaje']);
 //$mail->MsgHTML(file_get_contents('inc/contenido.html'), 'html');
 $mail->Subject='Formulario de contacto - Tecnologias BER';
-
 $mail->Body='<h1 align=left>Sus comentarios fueron recibidos con exito por Tecnilogias BER</h1> ' .
-
 '<h3><ul align=left>' . 
  '<li>Nombre: '. $_POST['nombre']. '</li>' .
  '<br><li>Apellido: '. $_POST['apellido'] . '</li>'.
  '<br><li>Mail: '. $_POST['correo'] . '</li>'.
- '<br><li>Telefono: '.$_POST['telefono']. '</li>' . 
- '<br><li>Area que desea contactar : '. $sector . '</li>' .  
+ '<br><li>Telefono: '.$_POST['telefono']. '</li>' .
+ '<br><li>Area que desea contactar : '. $sector . '</li>' .
  '</ul></h3>'.
  '<br><h2>Su mensaje fue: </h2>' .
  '<br><h4>' . $_POST['mensaje'] . '</h4>';

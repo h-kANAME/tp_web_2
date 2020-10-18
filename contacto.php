@@ -61,11 +61,11 @@
 				</div>
 				<div class="form-group">
 
-					<select class="mdb-select md-form">
+					<select name = "area" class="mdb-select md-form">
 						<option value="" disabled selected>Indique con qué área de la empresa desea contactarse</option>
-						<option value="1" name="soporte">Soporte Técnico</option>
-						<option value="2" name="ventas">Ventas</option>
-						<option value="3" name="otros">Otros</option>
+						<option value="1">Soporte Técnico</option>
+						<option value="2">Ventas</option>
+						<option value="3">Otros</option>
 					</select>
 
 				</div>
