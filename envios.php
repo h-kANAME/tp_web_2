@@ -19,7 +19,7 @@ $mail->Username = "luis.lopez@davinci.edu.ar";
 $mail->Password = '/';
 $mail->SetFrom('luis.lopez@davinci.edu.ar', 'Emmanuel Lopez');
 $mail->addAddress($_POST["correo"]); //Remitente
-//$mail->addBCC('luis.lopez@davinci.edu.ar'); // Copia oculta
+//$mail->addBCC('luis.lopez@davinci.edu.ar'); // cco
 $mail->isHTML(true);
 //$mail->Subject = 'Formulario enviado desde el sitio Tecnologia BER';
 $sector = $_POST['area'];

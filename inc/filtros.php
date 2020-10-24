@@ -3,7 +3,7 @@
 include_once('inc/marcas.php');
 include_once('inc/categorias.php');
 
-$ESTA_PAG = 'lista_productos.php';
+$ESTA_PAG = 'index.php';
 
 if (isset($_REQUEST['id_marca']))
     $id_marca = $_REQUEST['id_marca'];

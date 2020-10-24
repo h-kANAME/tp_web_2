@@ -10,12 +10,14 @@
 	<!-- library -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
 		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<link rel="stylesheet" href="styles/styles.css">
+		<link rel="stylesheet" href="styles/styles.css">
 </head>
 <!-- library -->
 
+<?php
+$idProd = $_GET["idProd"] ?? "vacio";
+?>
 <header>
-
 	<Section>
 		<nav class="navbar navbar-expand-md navbar-light bg-dark ">
 			<div class="container ml-6 px-5">

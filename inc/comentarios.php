@@ -2,38 +2,43 @@
 $comentarios = array(
 	
 	1 => array (
-		'id_comentario' => 1,
+		'email' => "ejemplo@mail.com",
 		'comentario' => 'Esto es un comentario',
+		'fecha' => "",
 		'valoracion' => 1
 ),
 
 2 => array (
-	'id_comentario' => 2,
+	'email' => "ejemplo@mail.com",
 	'comentario' => 'Esto es un comentario',
+	'fecha' => "",
 	'valoracion' => 2
 ),
 
 3 => array (
-	'id_comentario' => 3,
+	'email' => "ejemplo@mail.com",
 	'comentario' => 'Esto es un comentario',
+	'fecha' => "",
 	'valoracion' => 3
 ),
 
 4 => array (
-	'id_comentario' => 4,
+	'email' => "ejemplo@mail.com",
 	'comentario' => 'Esto es un comentario',
+	'fecha' => "",
 	'valoracion' => 4
 ),
 
 5 => array (
-	'id_comentario' => 5,
+	'email' => "ejemplo@mail.com",
 	'comentario' => 'Esto es un comentario',
+	'fecha' => "",
 	'valoracion' => 5
 ),
 
 
 );
 
-file_put_contents('comentarios.json', json_encode($comentarios));
+//file_put_contents('comentarios.json', json_encode($comentarios));
 
 ?>
