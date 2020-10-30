@@ -2,8 +2,6 @@
 
 _Tienda de productos_
 
-## Desarrollo
-
 ![Diagrama](./img/logoBer.png)
 
 ## Autores
