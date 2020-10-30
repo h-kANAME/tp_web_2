@@ -3,45 +3,39 @@ include_once ('inc/header.php');
 //include_once ('inc/comentarios.php');
 ?>
 
-<div class="container mb-5">
+<!-- Producto heredado -->
+<?php
+if (isset($_REQUEST['id_producto'])) {
+  $id_producto = $_REQUEST['id_producto'];
+} else {
+  $id_producto = '';
+}
+
+$productos = json_decode(file_get_contents('productos.json'), true);
+$producto = $productos[$id_producto];
+?>
+<!-- Producto heradado cierre -->
+
+<div class="container py-5">
 	<div class="row cardMainColor">
 		<div class="card body bg-dark col-12 mt-5">
-			<img src="https://www.kindpng.com/picc/m/295-2952973_transparent-hyperx-png-hyper-x-ssd-transparent-png.png"
-				class="card-img-top my-3" alt="...">
-
-			<div class="card-body">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6">
-							<h5 class="card-title" id="1">Nombre del producto</h5>
-						</div>
-						<div class="col-md-6">
-							<p class="card-text text-warning lead">$1000</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div>
-				<table class="table table-striped cardMainColor">
-					<thead>
-						<tr>
-							<th scope="col">Marca</th>
-							<th scope="col">Modelo</th>
-							<th scope="col">Descripcion</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<th scope="row">HYPERX</th>
-							<td>SAVAGE</td>
-							<td>Descripcion del producto</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="card-body">
-
 					<div class="container">
+								<div class="row">
+									<div class="col-8 py-5">
+										<a href=<?php echo $producto ["imagen"] ?> target="__blank">
+										 <img src=<?php echo $producto ["imagen"] ?> class="card-img-top" alt=""></a>
+									</div>
+									<div class="col-4 m-auto py-3">
+										<h2 class=""> <strong> <?php echo $producto ["modelo"] ?> </strong> </h2>
+										<h3><?php echo $producto ["descripcion"] ?></h3>
+										<h4 class="my-5"> Precio: <strong>$<?php echo $producto ["precio"] ?> </strong> </h4>
+										<div class="">
+												<button class="btn btn-success">Comprar</button>
+									</div>
+							</div>
+		    	</div>
+					
+
 					<div class="row">
 						<div class="col">
 							<form name="form" method="POST" action="">
@@ -62,22 +56,17 @@ include_once ('inc/header.php');
 										<option value="★★★★★">*****</option>
 									</select>
 								</div>
-
-								<!--  <input type="hidden" name="producto_id" value= <?php //echo $_GET['comentarios.json']?>> -->
-
 								<input type="submit" name="comentar" class="btn btn-success" value="Comentar" />
-
 							</form>
 						</div>
 					</div><!-- /row -->
 				</div><!-- /container -->
 
 
-				<!-- GUARDADO EN JSON DE COMENTARIOS -->
+<!-- GUARDADO EN JSON DE COMENTARIOS -->
 
-				<?php
-if (isset($_POST['comentar']))
-{
+<?php
+if (isset($_POST['comentar'])){
 
     $data = $_POST;
     unset($data['comentar']);
@@ -85,19 +74,16 @@ if (isset($_POST['comentar']))
     $fecha = new DateTime();
     $indexComentario = $fecha->format('YmdHisu');
 
-    if (file_exists('comentarios.json'))
-    {
+    if (file_exists('comentarios.json'))    {
         $comentarioJson = file_get_contents('comentarios.json');
         $comentarioArray = json_decode($comentarioJson, true);
     }
-    else
-    {
+    else{
         $comentarioArray = array();
     }
 
-    $comentarioArray[$indexComentario] = $data;
-
-    file_put_contents('comentarios.json', json_encode($comentarioArray));
+		$comentarioArray[$indexComentario] = $data;
+				file_put_contents('comentarios.json', json_encode($comentarioArray));
 }
 
 ?>
@@ -108,40 +94,33 @@ if (isset($_POST['comentar']))
 							<h3>Comentarios</h3>
 
 							<?php
-if (file_exists('comentarios.json'))
-{
-    $comentarioJson = file_get_contents('comentarios.json');
-    $comentarioArray = json_decode($comentarioJson, true);
-    krsort($comentarioArray);
+										if (file_exists('comentarios.json')){
+												$comentarioJson = file_get_contents('comentarios.json');
+												$comentarioArray = json_decode($comentarioJson, true);
+												krsort($comentarioArray);
+												$cantidad = 0;
+												foreach ($comentarioArray as $comentario){
+														$cantidad++;
+														if ($cantidad == 6) break;
+								?>
 
-    $cantidad = 0;
-
-    foreach ($comentarioArray as $comentario)
-    {
-
-        $cantidad++;
-        if ($cantidad == 6) break;
-?>
 							<div>
 								<h4><?php echo $comentario['califaicacion'] ?></h4>
 								<h5>
 									<?php echo $comentario['email'] . ' (' . $comentario['fecha'] . '): ' . $comentario['descripcion']; ?>
 								</h5>
 							</div>
+							
 							<?php
-    }
-} ?>
-
+    						}}?>
 						</div>
 					</div>
-
 				</div>
-
-			</div>
+			
 		</div>
 	</div>
 </div>
-</div>
+
 
 <?php
 include_once ('inc/footer.php');

@@ -1,4 +1,3 @@
-		<!--Header-->
 <?php
 include_once('inc/header.php');
 ?>
@@ -11,24 +10,36 @@ include_once('inc/header.php');
 				?>
 			</div>
 		</div>
+<!-- CosoOpen -->
+<div class="container">
+    <div class="row my-5">
+					<?php
+					include_once('inc/productos.php');
+					$productos = json_decode(file_get_contents('productos.json'), true);
 
+          foreach ($productos as $producto) {
+            if ($producto["id_categoria"] == 1) {
+              echo "<div class='col'>
 
-		<!--Lista de productos tipo Hardware-->
-
-		<div class="container">
-			<div class="row">
-				<div class="col -12">
-					<h2 class="text-center">Hardware</h2>
-				</div>
-			</div>
-		</div>
-
-		<?php
-		include_once('inc/lista_productos_hardware.php');
-		?>
-
-
-		<!-- Footer -->
+						<div class='card' style='width: 17rem;'>
+              <img src='" . $producto["imagen"] . "' class='card-img-top' alt=" . $producto["modelo"] . ">
+              <div class='card-body'>
+                <h5 class='card-title'>" . $producto["modelo"] . "</h5>
+              </div>
+             
+                <h4 class='text-center'> $" . $producto["precio"] . " </h4>
+              
+              <div class='btn-group'>
+                <a href='hardware.php?id_producto=" . $producto["id_producto"] . "' class='btn btn-secondary'>Detalles</a>
+              </div>
+            </div>
+          </div>";
+            }
+          }
+          ?>
+    </div>
+  </div>
+<!-- Cosoclest -->
 
 		<?php
 			include_once('inc/footer.php');

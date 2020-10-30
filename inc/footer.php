@@ -2,24 +2,14 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-md-6 col-lg-4">
-				<h3>Integrantes</h3>
-				<ul class="nav flex-column">
-					<li class="nav-item"><a class="nav-link text-white"
-							href="https://www.linkedin.com/in/emmanuel-lopez-4b4061128" target="new">Lopez, Emmanuel</a></li>
-					<li class="nav-item"><a class="nav-link text-white" href="https://www.linkedin.com/in/bryan-rivera-23b7311b7/"
-							target="new">Rivera, Bryan</a></li>
-					<li class="nav-item"><a class="nav-link text-white"
-							href="https://www.linkedin.com/in/ricardo-baez-leal-marketing-analyst-lead-generation-1893b3161/"
-							target="new">Baez Leal, Ricardo</a></li>
-				</ul>
+				<h4>Lopez, Emmanuel</h4>
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 text-center">
-				<h3>Escuela Davinci</h3>
-				<img src="img/Davinci.jpg" alt="..." class="img-thumbnail br-2">
+				<h4>Escuela Davinci</h4>		
 			</div>
 			<div class="col-12 col-md-6 col-lg-4 text-center">
-				<h3>Fecha de Entrega</h3>
-				<p>1 de Octubre del 2020</p>
+				<h4>ACN2B</h4>
+				<p>Repositorio</p>
 				<p> <a href="https://github.com/h-kANAME/tp_web_2.git" target="_blank"><img
 							src="img/gitGubLogo.png" width="50" height="50" alt=""></a></p>
 			</div>

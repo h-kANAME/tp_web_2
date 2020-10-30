@@ -3,7 +3,7 @@ $marcas = array(
 	
 1 => array (
 	'id_marca' => 1,
-	'nombre' => 'HYPERX SAVAGE',
+	'nombre' => 'HYPERX',
 ),
 
 2 => array (
@@ -50,7 +50,7 @@ $marcas = array(
 ),
 11 => array (
 	'id_marca' => 11,
-	'nombre' => 'SteelSeries'
+	'nombre' => 'STEEL SERIES'
 ),
 );
 

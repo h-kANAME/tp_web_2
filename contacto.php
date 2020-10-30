@@ -80,6 +80,8 @@
 	</div>
 </div>
 <!-- Footer -->
+</div>
+</div>
 <?php
 	include_once('inc/footer.php');
 ?>
