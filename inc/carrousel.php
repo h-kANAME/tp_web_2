@@ -7,14 +7,14 @@
 				</ol>
 				<div class="carousel-inner cardMainColor my-4">
 					<div class="carousel-item active">
-						<img src="img/hardware_slide.jpg" class="img-fluid" alt="...">
+						<img src="img/Logos_Banners/hardware_slide.jpg" class="img-fluid" alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="img/software_slide.jpg" class="img-fluid"
+						<img src="img/Logos_Banners/software_slide.jpg" class="img-fluid"
 							alt="...">
 					</div>
 					<div class="carousel-item">
-						<img src="img/perifericos_slide.jpg" class="img-fluid"
+						<img src="img/Logos_Banners/perifericos_slide.jpg" class="img-fluid"
 							alt="...">
 					</div>
 				</div>

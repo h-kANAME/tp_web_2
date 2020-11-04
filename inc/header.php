@@ -29,16 +29,13 @@ echo strpos ($_SERVER['PHP_SELF'] , $item_seleccionado) ? 'active activo' : '';
 <header>
 <nav class="navbar navbar-expand-md bg-dark ">
 			<div class="container ml-6 px-5">
-				<a class="navbar-brand text-white" href="index.php"><img src="img/logoBer.png" alt=""></a>
+				<a class="navbar-brand text-white" href="index.php"><img src="img/Logos_Banners/logoKYZ.png" alt=""></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
 					aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse md-pt-4 mdx-5 lg-pt-1 sm-pt-5" id="navbarNavDropdown">				
+				<div class="collapse navbar-collapse md-pt-4 mdx-5 lg-pt-1 sm-pt-5" id="navbarNavDropdown">
 				<ul class="navbar-nav ml-auto">
-						<li class="nav-item md-px-3">
-							<a class="nav-link text-white <?php Activo('lista_productos.php')?>" href="lista_productos.php">Lista de productos</a>
-						</li>
 						<li class="nav-item md-px-3">
 							<a class="nav-link text-white <?php Activo('hardware.php')?>" href="hardware.php">Hardware</a>
 						</li>

@@ -29,9 +29,10 @@ include_once('inc/header.php');
              
                 <h4 class='text-center'> $" . $producto["precio"] . " </h4>
               
-              <div class='btn-group'>
-                <a href='hardware.php?id_producto=" . $producto["id_producto"] . "' class='btn btn-secondary'>Detalles</a>
-              </div>
+            <div class='btn-group'>
+							<a href='producto_modelo.php?id_producto=" . $producto["id_producto"] . "' class='btn btn-dark'>Detalles</a>
+						</div>
+
             </div>
           </div>";
             }

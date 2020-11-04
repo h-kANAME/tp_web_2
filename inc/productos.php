@@ -1,14 +1,13 @@
 <?php
 
     	$productos = array(
-			//HardWare 1 categoria 2 marcas 4 productos
-			1 => array (
+					1 => array (
 			'id_producto' => 1,
 			'descripcion' => 'Disco en estado solido, productoo de interface SerialATA III con 560MB/s de velocidad de lectura lectura y 360MB/s de escritura',
 			'id_marca' => 1,
 			'id_categoria' => 1,
 			'modelo' => 'Disco SSD 120 GB',
-			'destacado' => true,
+			'destacado' => false,
 			'precio' => 3157,
 			'imagen' => "img/Hardware/0.jpg",
 		),
@@ -29,7 +28,7 @@
 			'descripcion' => 'Memoria con factor de forma UDIMM, la mejor opcion a la hora de buscar un producto confiable y a un precio competitivo',
 			'id_marca' => 3,
 			'id_categoria' => 1,
-			'modelo' => 'Memoria DDR4 2666 Mhz - 4GB',
+			'modelo' => 'Memoria DDR4 2666Mhz-4GB',
 			'destacado' => false,
 			'precio' => 2146,
 			'imagen' => "img/Hardware/2.jpg",
@@ -40,8 +39,8 @@
 			'descripcion' => 'Velocidad de 2666MHz a 4600MHz y compatible con las plataformas Intel® X299 2666MHz y AMD AM4 / Ryzen',
 			'id_marca' => 4,
 			'id_categoria' => 1,
-			'modelo' => 'Memoria DDR4 3000 Mhz - 8GB',
-			'destacado' => false,
+			'modelo' => 'Memoria DDR4 3000Mhz - 8GB',
+			'destacado' => true,
 			'precio' => 4637,
 			'imagen' => "img/Hardware/3.jpg",
 		),
@@ -85,11 +84,11 @@
 			'id_marca' => 6,
 			'id_categoria' => 1,
 			'modelo' => 'Placa de Video RADEON RX 5600 XT',
-			'destacado' => false,
+			'destacado' => true,
 			'precio' => 51308,
 			'imagen' => "img/Hardware/7.jpg",
 		),
-		   //SoftWare 1 categoria 2 marcas 4 productos
+		   //SoftWare
 		   9 => array (
 			'id_producto' => 9,
 			'descripcion' => 'Funciones del software: Editor de Imagen',
@@ -98,7 +97,7 @@
 			'modelo' => 'Illustrator',
 			'destacado' => false,
 			'precio' => 10000,
-			'imagen' => "img/Software/8.png",
+			'imagen' => "img/Software/8.jpg",
 		   ),
 		   10 => array (
 			'id_producto' => 10,
@@ -108,7 +107,7 @@
 			'modelo' => 'Lightroom',
 			'destacado' => false,
 			'precio' => 8000,
-			'imagen' => "img/Software/10.png",
+			'imagen' => "img/Software/9.jpg",
 		   ),
 		   11 => array (
 			'id_producto' => 11,
@@ -118,7 +117,7 @@
 			'modelo' => 'InDesign',
 			'destacado' => false,
 			'precio' => 5000,
-			'imagen' => "img/Software/9.png",
+			'imagen' => "img/Software/10.jpg",
 		   ),
 		   12 => array (
 			'id_producto' => 12,
@@ -129,7 +128,7 @@
 			'modelo' => 'Photoshop',
 			'destacado' => false,
 			'precio' => 1500,
-			'imagen' => "img/Software/11.png",
+			'imagen' => "img/Software/11.jpg",
 		   ),
 		   13 => array (
 			'id_producto' => 13,
@@ -139,7 +138,7 @@
 			'modelo' => 'Windows 10 Pro',
 			'destacado' => false,
 			'precio' => 37000,
-			'imagen' => "img/Software/14.jpg",
+			'imagen' => "img/Software/12.jpg",
 		   ),
 		   14 => array (
 			'id_producto' => 14,
@@ -153,14 +152,14 @@
 		   ),
 		   15 => array (
 			'id_producto' => 15,
-			'descripcion' => 'XBOX GAME PASS + GOLD 30 DÍAS
-		 	100 % original Xbox One, tenemos stock permanente ofertar sin problemas.',
+			'descripcion' => 'Pack XBOX GAME PASS + GOLD 30 DÍAS
+		 	100 % original Xbox One',
 			'id_marca' =>  8,
 			'id_categoria' => 2,
-			'modelo' => 'xbox live gold',
+			'modelo' => 'Xbox Live Gold',
 			'destacado' => false,
 			'precio' => 13000,
-			'imagen' => "img/Software/15.png",
+			'imagen' => "img/Software/14.jpg",
 		   ),
 		   16 => array (
 			'id_producto' => 16,
@@ -172,14 +171,14 @@
 			'precio' => 8000,
 			'imagen' => "img/Software/12.jpg",
 		   ),
-		   //Perifericos 1 categoria 2 marcas 4 productos
+		   //Perifericos
 		   17 => array (
 			'id_producto' => 17,
 			'descripcion' => 'Audífonos con micrófono PRO X para juegos, incorporta la tecnologia Blue Voice',
 			'id_marca' =>  9,
 			'id_categoria' => 3,
 			'modelo'=> 'Logitech G Pro X',
-			'destacado' => true,
+			'destacado' => false,
 			'precio' => 34000,
 			'imagen' => "img/Perifericos/16.jpg",
 		   ),

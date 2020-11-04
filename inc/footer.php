@@ -11,7 +11,7 @@
 				<h4>ACN2B</h4>
 				<p>Repositorio</p>
 				<p> <a href="https://github.com/h-kANAME/tp_web_2.git" target="_blank"><img
-							src="img/gitGubLogo.png" width="50" height="50" alt=""></a></p>
+							src="img/Logos_Banners/gitGubLogo.png" width="50" height="50" alt=""></a></p>
 			</div>
 		</div>
 	</div>

@@ -14,9 +14,9 @@
              
                 <h4 class='text-center'> $" . $producto["precio"] . " </h4>
               
-              <div class='btn-group'>
-                <a href='producto_modelo.php?id_producto=" . $producto["id_producto"] . "' class='btn btn-primary'>Detalles</a>
-              </div>
+								<div class='btn-group'>
+								<a href='producto_modelo.php?id_producto=" . $producto["id_producto"] . "' class='btn btn-primary'>Detalles</a>
+							</div>
             </div>
           </div>";
             }

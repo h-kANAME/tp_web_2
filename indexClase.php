@@ -8,7 +8,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col md-12 my-4 ">
-<?php
+			<?php
 include_once ('inc/carrousel.php');
 ?>
 		</div>
@@ -36,8 +36,7 @@ $productos = json_decode(file_get_contents('productos.json'), true);
 ?>
 
 
-<?php
-
+			<?php
 echo '<form action="" method="get">';
 echo '<ul>';
 echo '<li>';
@@ -87,73 +86,57 @@ include_once ('inc/destacados.php');
 
 </div> <!-- Cierra container filtros/destacados -->
 
-
 <div class="container">
-	<div class="col -md-12">
-
+	<div class="">
 		<div class="row">
-				<div class="py-2">
-							
+			<div class="">
 				<div class="row">
-        <?php
-				$productos = json_decode(file_get_contents('productos.json') , true);
-				foreach ($productos as $a_producto){
+				
+				<?php
+			$productos = json_decode(file_get_contents('productos.json') , true);
+			foreach ($productos as $a_producto){
 					if ((in_array($a_producto['id_marca'], $id_marca) || empty($id_marca)) && 
-					   ((in_array($a_producto['id_categoria'], $id_categoria) || empty($id_categoria)))){
+				   ((in_array($a_producto['id_categoria'], $id_categoria) || empty($id_categoria)))){
 
-							
-						echo '<div class="col-md-4 card-body">';
-				    echo '<div class="card" style="width: 20rem;">';
-						echo '<div class="card text-center">';
+			}
+	}
 
-						echo '<img src="' . $a_producto['imagen'] . '" class="card-img-top"  alt="' . $a_producto['modelo'] . '">';
-						echo '<div class="card-body">';
-						echo '<h5 class="card-title">' . $a_producto['modelo'] . '</h5>';
-						
-						echo '<h6 class="card-text">' . '$' . $a_producto['precio'] . '</h6>';
-						echo '</div>'; //Cry
+		foreach (   $productos as $a_producto) {
+
+				$producto_id = $a_producto['id_producto'] ;
+				$producto_modelo = $a_producto['modelo'] ;
+				$producto_img =  $a_producto['imagen'];
+				$producto_precio = $a_producto['precio'] ;
+
+			$producto_marca = $a_marca['nombre'];
+			$producto_categoria = $a_producto['id_categoria'];
+
+?>
+					<!-- Aca arranco con el tester -->
 				
-						echo '<div class="btn-group">';
-						echo '<a href="producto_modelo.php?id_producto=' . $a_producto['id_producto'] . '" class="btn btn-dark">Detalles</a>';
-					
-						echo '</div>'; // Card body
-						echo '</div>'; // Style width 20
-						echo '</div>';
-						echo '</div>';
-				
-						
 
-/*					
 					<div class="col-md-4 card-body">
-						<div class="card" style="width: 13rem;">
+						<div class="card" style="width: 20rem;">
+							<a href="producto_modelo.php?id_producto=<?php echo $producto_id ?>"><img class="card-img-top" alt="..."src="<?php echo $producto_img ?>"></a>
 
-							<img src="https://www.venex.com.ar/products_images/1585751676_ssd_240gb_kingston_a400_2.jpg"
-								class="card-img-top" alt="...">
+							<div class="card-body py-2">
 
-							<div class="card-body">
-								<p class="card-text">Producto</p>
-								<p class="card-text">ARS 1.000</p>
-								<p class="card-text">Comemtario</p>
-								<div class="d-flex justify-content-between align-items-center">
-									<div class="btn-group">
-										<a href="producto_modelo.php"><button type="button" class="btn btn-dark">Detalles</button></a>
-									</div>
-								</div>
+								<h5 class="card-title">
+									<a href="producto_modelo.php?id_producto=<?php echo $producto_id ?>"> <?php echo $producto_modelo ?></a>
+								</h5>
+
+								<h5><?php echo $producto_precio ?></h5>
+								<h5><?php echo $a_marca['nombre'] ?></h5>
 							</div>
 						</div>
 					</div>
 
-*/			
+					<?php } ?>
 
-
-
-
-				}
-		}
-?>
-						</div>
+					<!-- Aca arranca el que esta funcionando -->
 				</div>
 			</div>
+		</div>
 
 	</div>
 </div>
