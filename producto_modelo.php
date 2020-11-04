@@ -22,8 +22,8 @@ $producto = $productos[$id_producto];
 					<div class="container">
 								<div class="row">
 									<div class="col-8 py-5">
-										<a href=<?php echo $producto ["imagen"] ?> target="__blank">
-										 <img src=<?php echo $producto ["imagen"] ?> class="card-img-top" alt=""></a>
+										<a href=<?php echo $producto ["imagenMax"] ?> target="__blank">
+										 <img src=<?php echo $producto ["imagenMax"] ?> class="card-img-top" alt=""></a>
 									</div>
 									<div class="col-4 m-auto py-3">
 										<h2 class=""> <strong> <?php echo $producto ["modelo"] ?> </strong> </h2>

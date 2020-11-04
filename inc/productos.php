@@ -10,6 +10,7 @@
 			'destacado' => false,
 			'precio' => 3157,
 			'imagen' => "img/Hardware/0.jpg",
+			'imagenMax' => "img/Hardware/Max/0.jpg",
 		),
 		
 		2 => array (
@@ -21,6 +22,7 @@
 			'destacado' => false,
 			'precio' => 4760,
 			'imagen' => "img/Hardware/1.jpg",
+			'imagenMax' => "img/Hardware/Max/1.jpg",
 		),
 		
 		3 => array (
@@ -32,6 +34,7 @@
 			'destacado' => false,
 			'precio' => 2146,
 			'imagen' => "img/Hardware/2.jpg",
+			'imagenMax' => "img/Hardware/Max/2.jpg",
 		),
 		
 		4 => array (
@@ -43,6 +46,7 @@
 			'destacado' => true,
 			'precio' => 4637,
 			'imagen' => "img/Hardware/3.jpg",
+			'imagenMax' => "img/Hardware/Max/3.jpg",
 		),
 		
 		5 => array (
@@ -54,6 +58,7 @@
 			'destacado' => false,
 			'precio' => 13158,
 			'imagen' => "img/Hardware/4.jpg",
+			'imagenMax' => "img/Hardware/Max/4.jpg",
 		),
 		
 		6 => array (
@@ -65,6 +70,7 @@
 			'destacado' => true,
 			'precio' => 17053,
 			'imagen' => "img/Hardware/5.jpg",
+			'imagenMax' => "img/Hardware/Max/5.jpg",
 		),
 		
 		7 => array (
@@ -76,6 +82,7 @@
 			'destacado' => false,
 			'precio' => 44719,
 			'imagen' => "img/Hardware/6.jpg",
+			'imagenMax' => "img/Hardware/Max/6.jpg",
 		),
 		
 		8 => array (
@@ -87,6 +94,7 @@
 			'destacado' => true,
 			'precio' => 51308,
 			'imagen' => "img/Hardware/7.jpg",
+			'imagenMax' => "img/Hardware/Max/7.jpg",
 		),
 		   //SoftWare
 		   9 => array (
@@ -98,6 +106,7 @@
 			'destacado' => false,
 			'precio' => 10000,
 			'imagen' => "img/Software/8.jpg",
+			'imagenMax' => "img/Software/Max/8.jpg",
 		   ),
 		   10 => array (
 			'id_producto' => 10,
@@ -108,6 +117,7 @@
 			'destacado' => false,
 			'precio' => 8000,
 			'imagen' => "img/Software/9.jpg",
+			'imagenMax' => "img/Software/Max/9.jpg",
 		   ),
 		   11 => array (
 			'id_producto' => 11,
@@ -118,6 +128,7 @@
 			'destacado' => false,
 			'precio' => 5000,
 			'imagen' => "img/Software/10.jpg",
+			'imagenMax' => "img/Software/Max/10.jpg",
 		   ),
 		   12 => array (
 			'id_producto' => 12,
@@ -129,6 +140,7 @@
 			'destacado' => false,
 			'precio' => 1500,
 			'imagen' => "img/Software/11.jpg",
+			'imagenMax' => "img/Software/Max/11.jpg",
 		   ),
 		   13 => array (
 			'id_producto' => 13,
@@ -139,6 +151,7 @@
 			'destacado' => false,
 			'precio' => 37000,
 			'imagen' => "img/Software/12.jpg",
+			'imagenMax' => "img/Software/Max/12.jpg",
 		   ),
 		   14 => array (
 			'id_producto' => 14,
@@ -149,6 +162,7 @@
 			'destacado' => false,
 			'precio' => 5000,
 			'imagen' => "img/Software/13.jpg",
+			'imagenMax' => "img/Software/Max/13.jpg",
 		   ),
 		   15 => array (
 			'id_producto' => 15,
@@ -160,6 +174,7 @@
 			'destacado' => false,
 			'precio' => 13000,
 			'imagen' => "img/Software/14.jpg",
+			'imagenMax' => "img/Software/Max/14.jpg",
 		   ),
 		   16 => array (
 			'id_producto' => 16,
@@ -169,7 +184,8 @@
 			'modelo' => 'Microsoft 365',
 			'destacado' => false,
 			'precio' => 8000,
-			'imagen' => "img/Software/12.jpg",
+			'imagen' => "img/Software/15.jpg",
+			'imagenMax' => "img/Software/Max/15.jpg",
 		   ),
 		   //Perifericos
 		   17 => array (
@@ -181,6 +197,7 @@
 			'destacado' => false,
 			'precio' => 34000,
 			'imagen' => "img/Perifericos/16.jpg",
+			'imagenMax' => "img/Perifericos/Max/16.jpg",
 		   ),
 		   18 => array (
 			'id_producto' => 18,
@@ -191,6 +208,7 @@
 			'destacado' => false,
 			'precio' => 20000,
 			'imagen' => "img/Perifericos/17.jpg",
+			'imagenMax' => "img/Software/Max/17.jpg",
 		   ),
 		   19 => array (
 			'id_producto' => 19,
@@ -201,6 +219,7 @@
 			'destacado' => false,
 			'precio' => 12250,
 			'imagen' => "img/Perifericos/18.jpg",
+			'imagenMax' => "img/Perifericos/Max/18.jpg",
 		   ),
 		   20 => array (
 			'id_producto' => 20,
@@ -211,6 +230,7 @@
 			'destacado' => false,
 			'precio' => 13000,
 			'imagen' => "img/Perifericos/19.jpg",
+			'imagenMax' => "img/Perifericos/Max/19.jpg",
 		   ),
 		   21 => array (
 			'id_producto' => 21,
@@ -221,6 +241,7 @@
 			'destacado' => false,
 			'precio' => 3500,
 			'imagen' => "img/Perifericos/20.jpg",
+			'imagenMax' => "img/Perifericos/Max/20.jpg",
 		   ),
 		   22 => array (
 			'id_producto' => 22,
@@ -231,6 +252,7 @@
 			'destacado' => false,
 			'precio' => 3799,
 			'imagen' => "img/Perifericos/21.jpg",
+			'imagenMax' => "img/Perifericos/Max/21.jpg",
 		   ),
 		   23 => array (
 			'id_producto' => 23,
@@ -242,6 +264,7 @@
 			'destacado' => false,
 			'precio' => 29500,
 			'imagen' => "img/Perifericos/22.jpg",
+			'imagenMax' => "img/Perifericos/Max/22.jpg",
 		   ),
 		   24 => array (
 			'id_producto' => 24,
@@ -252,6 +275,7 @@
 			'destacado' => false,
 			'precio' => 42000,
 			'imagen' => "img/Perifericos/23.jpg",
+			'imagenMax' => "img/Perifericos/Max/23.jpg",
 		   ),
 
 );
