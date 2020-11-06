@@ -2,7 +2,7 @@
 
 _Tienda de productos_
 
-![Diagrama](./img/logoBer.png)
+![logo](./img/Logos_Banners/logoKYZ.png)
 
 ## Autores
 
