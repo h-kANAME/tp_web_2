@@ -39,6 +39,6 @@ $comentarios = array(
 
 );
 
-//file_put_contents('comentarios.json', json_encode($comentarios));
+file_put_contents('json/comentarios.json', json_encode($comentarios));
 
 ?>

@@ -16,8 +16,8 @@ else
 		$id_categoria = ''; 
 
 	//	$productos = json_decode(file_get_contents('productos.json'), true);
-		$marcas = json_decode(file_get_contents('marcas.json'), true);
-		$categorias = json_decode(file_get_contents('categorias.json'), true);
+		$marcas = json_decode(file_get_contents('json/marcas.json'), true);
+		$categorias = json_decode(file_get_contents('json/categorias.json'), true);
 
 		//Funcion de filtrado
 
@@ -46,7 +46,7 @@ foreach ($categorias as $a_categoria) {
             echo '</li>';
         }
     
- $productos = json_decode(file_get_contents('productos.json'), true);
+ $productos = json_decode(file_get_contents('json/productos.json'), true);
  foreach ($productos as $a_producto) {
      if (($a_producto['id_categoria'] == $id_categoria || $id_categoria =='')&&($a_producto['id_marca'] == $id_marca || $id_marca =='')){
 						

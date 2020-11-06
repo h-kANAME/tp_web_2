@@ -15,7 +15,7 @@ include_once('inc/header.php');
     <div class="row my-5">
 					<?php
 					include_once('inc/productos.php');
-					$productos = json_decode(file_get_contents('productos.json'), true);
+					$productos = json_decode(file_get_contents('json/productos.json'), true);
 
           foreach ($productos as $producto) {
             if ($producto["id_categoria"] == 2) {

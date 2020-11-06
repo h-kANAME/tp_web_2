@@ -54,6 +54,6 @@ $marcas = array(
 ),
 );
 
-file_put_contents('marcas.json', json_encode($marcas));
+file_put_contents('json/marcas.json', json_encode($marcas));
 
 ?>

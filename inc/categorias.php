@@ -18,6 +18,6 @@ $categorias = array(
 
 );
 
-file_put_contents('categorias.json', json_encode($categorias));
+file_put_contents('json/categorias.json', json_encode($categorias));
 
 ?>

@@ -3,18 +3,14 @@ include_once ('inc/header.php');
 //include_once ('inc/comentarios.php');
 ?>
 
-<!-- Producto heredado -->
 <?php
-if (isset($_REQUEST['id_producto'])) {
-  $id_producto = $_REQUEST['id_producto'];
-} else {
-  $id_producto = '';
-}
-
-$productos = json_decode(file_get_contents('productos.json'), true);
+$id_producto = $_REQUEST['id_producto'];
+$productos = json_decode(file_get_contents('json/productos.json'), true);
+$comentarios = json_decode(file_get_contents('json/comentarios.json'), true);
+//Producto heredado
 $producto = $productos[$id_producto];
+
 ?>
-<!-- Producto heradado cierre -->
 
 <div class="container py-5">
 	<div class="row cardMainColor">
@@ -34,8 +30,6 @@ $producto = $productos[$id_producto];
 									</div>
 							</div>
 		    	</div>
-					
-
 					<div class="row">
 						<div class="col">
 							<form name="form" method="POST" action="">
@@ -46,7 +40,6 @@ $producto = $productos[$id_producto];
 								</div>
 								<textarea class="form-control" name="descripcion" rows="6" placeholder="Tu comentario..."
 									required></textarea>
-
 								<div class="form-group my-3">
 									<select name="califaicacion">
 										<option value="★">*</option>
@@ -56,71 +49,71 @@ $producto = $productos[$id_producto];
 										<option value="★★★★★">*****</option>
 									</select>
 								</div>
-								<input type="submit" name="comentar" class="btn btn-success" value="Comentar" />
+								<input type="submit" name="comentar" class="btn btn-success">
 							</form>
 						</div>
 					</div><!-- /row -->
 				</div><!-- /container -->
 
-
 <!-- GUARDADO EN JSON DE COMENTARIOS -->
 
 <?php
-if (isset($_POST['comentar'])){
+if (isset($_REQUEST['email']) && isset($_REQUEST['descripcion']) && isset($_REQUEST['califaicacion'])) {
 
-    $data = $_POST;
-    unset($data['comentar']);
-    $data['fecha'] = date('d/m/Y H:i:s');
-    $fecha = new DateTime();
-    $indexComentario = $fecha->format('YmdHisu');
+  $email = $_REQUEST['email'];
+  $comentario = $_REQUEST['descripcion'];
+  $califaicacion = $_REQUEST['califaicacion'];
 
-    if (file_exists('comentarios.json'))    {
-        $comentarioJson = file_get_contents('comentarios.json');
-        $comentarioArray = json_decode($comentarioJson, true);
-    }
-    else{
-        $comentarioArray = array();
-    }
+  date_default_timezone_set("America/Argentina/Buenos_Aires");
+	$comentarios[date('YmdHisU')] = array("fecha" => date('d-m-Y H:i:s'),
+	"id_producto" => $id_producto,
+	"descripcion" => $comentario,
+	"califaicacion" => $califaicacion,
+  "email" => $email,);
 
-		$comentarioArray[$indexComentario] = $data;
-				file_put_contents('comentarios.json', json_encode($comentarioArray));
+file_put_contents('json/comentarios.json',json_encode($comentarios));
+
 }
-
 ?>
-
-				<div class="container">
-					<div class="row mt justify-content-center">
+				<div class="container">	
 						<div class="text-center">
-							<h3>Comentarios</h3>
+							<h2>Comentarios</h2>
+							<br>
+					<?php
+				
+		   		if (count($comentarios) > 0) {
 
-							<?php
-										if (file_exists('comentarios.json')){
-												$comentarioJson = file_get_contents('comentarios.json');
-												$comentarioArray = json_decode($comentarioJson, true);
-												krsort($comentarioArray);
-												$cantidad = 0;
-												foreach ($comentarioArray as $comentario){
-														$cantidad++;
-														if ($cantidad == 6) break;
-								?>
+						arsort ($comentarios);
+						$contador = 0;
+						foreach ($comentarios as $comentario) {
+				if ($comentario["id_producto"] == $id_producto) {
+					$contador++;
+					if($contador == 4) break;
 
-							<div>
-								<h4><?php echo $comentario['califaicacion'] ?></h4>
-								<h5>
-									<?php echo $comentario['email'] . ' (' . $comentario['fecha'] . '): ' . $comentario['descripcion']; ?>
-								</h5>
-							</div>
-							
-							<?php
-    						}}?>
+						echo " <div class='card-body bg-secondary'>
+					
+						<h4> Comentario de: " . $comentario["email"] . "</h4>
+						<p class='my-3'></p>
+						
+						<h5>" . $comentario["descripcion"] . "</h5>
+						<p class='my-3'></p>
+						
+						<h4><strong>Valoración: </strong> " . $comentario["califaicacion"] . "</h4>
+						<p class='my-3'></p>
+						
+						<p>" . $comentario["fecha"] . "</p>
+						</div>";
+					echo '<br>';
+					
+				}
+			}
+    }
+		?>
 						</div>
-					</div>
-				</div>
-			
+				</div>	
 		</div>
 	</div>
 </div>
-
 
 <?php
 include_once ('inc/footer.php');

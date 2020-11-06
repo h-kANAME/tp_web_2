@@ -28,11 +28,11 @@ if (isset($_REQUEST['id_categoria']))
 $id_categoria = $_REQUEST['id_categoria'];
 else $id_categoria = array();
 
-$marcas = json_decode(file_get_contents('marcas.json') , true);
-$categorias = json_decode(file_get_contents('categorias.json') , true);
+$marcas = json_decode(file_get_contents('json/marcas.json') , true);
+$categorias = json_decode(file_get_contents('json/categorias.json') , true);
 
 include_once('inc/productos.php');
-$productos = json_decode(file_get_contents('productos.json'), true);
+$productos = json_decode(file_get_contents('json/productos.json'), true);
 ?>
 
 
@@ -96,7 +96,7 @@ include_once ('inc/destacados.php');
 							
 				<div class="row">
         <?php
-				$productos = json_decode(file_get_contents('productos.json') , true);
+				$productos = json_decode(file_get_contents('json/productos.json') , true);
 				foreach ($productos as $a_producto){
 					if ((in_array($a_producto['id_marca'], $id_marca) || empty($id_marca)) && 
 					   ((in_array($a_producto['id_categoria'], $id_categoria) || empty($id_categoria)))){

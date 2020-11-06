@@ -38,8 +38,7 @@ if($sector == '1'){
 	$sector = 'No definido por el cliente';
 	$mail->addBCC('luis.lopez@davinci.edu.ar');
 }
-//$mail->Body =($_POST['mensaje']);
-//$mail->MsgHTML(file_get_contents('inc/contenido.html'), 'html');
+
 $mail->Subject='Formulario de contacto - Tecnologias BER';
 $mail->Body='<h1 align=left>Sus comentarios fueron recibidos con exito por Tecnilogias BER</h1> ' .
 '<h3><ul align=left>' . 

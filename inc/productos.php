@@ -208,7 +208,7 @@
 			'destacado' => false,
 			'precio' => 20000,
 			'imagen' => "img/Perifericos/17.jpg",
-			'imagenMax' => "img/Software/Max/17.jpg",
+			'imagenMax' => "img/Perifericos/Max/17.jpg",
 		   ),
 		   19 => array (
 			'id_producto' => 19,
@@ -280,15 +280,5 @@
 
 );
 
-//file_put_contents('productos.json', json_encode($productos));
-
-$puntero = fopen("productos.json", "w");
-
-$productosJSON = json_encode($productos);
-
-fwrite($puntero,$productosJSON,strlen($productosJSON));
-
-fclose($puntero);
-
-
+file_put_contents('json/productos.json', json_encode($productos));
 ?>
