@@ -1,4 +1,5 @@
 <?php
+$titulo = 'KYZ Technology - Software';
 include_once('inc/header.php');
 ?>
 

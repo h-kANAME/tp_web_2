@@ -1,13 +1,15 @@
 <?php
-
-if ( isset ($_REQUEST['titulo'] ) )  
+/*
+if ( isset ($_REQUEST['titulo'] ) )
 $titulo = $_REQUEST['titulo'] ;
 else
-$titulo = 'KYZ';
- 
+$titulo = 'KYZ-Technology';
+ */
 function Activo ($item_seleccionado){
 echo strpos ($_SERVER['PHP_SELF'] , $item_seleccionado) ? 'active activo' : '';
 }
+
+
 ?>
 
 <!doctype html>

@@ -1,4 +1,4 @@
-<div id="carouselExampleCaptions" class="carousel slide col -9 sm-6 my-4" data-ride="carousel">
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 		
 				<ol class="carousel-indicators">
 					<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>

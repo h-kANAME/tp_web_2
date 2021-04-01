@@ -1,4 +1,5 @@
 <?php
+$titulo = 'KYZ Technology - Contacto';
 	include_once('inc/header.php');
 ?><div class="container">
 	<div class="row">
@@ -21,32 +22,20 @@
 	</div>
 </div>
 
-<div class="container my-3">
-	<div class="row">
-		<div class="col -md-3">
-			<div class="card body text-center">
-				<p class="card-text">Av. Corrientes 2037/49</p>
-				<p class="card-text">(11) 5032-0076</p>
-				<a href="mailto:contacto@davinci.edu.ar">contacto@davinci.edu.ar</a>
-			</div>
-		</div>
-	</div>
-
-</div>
 
 <div class="container">
 	<div class="row">
 		<div class="col 12">
-			<h5 class="w-responsive mx-auto my-3">Dejanos tu contacto y un mensaje</h5>
+			<h3 class="w-responsive mx-auto my-3">Contáctenos</h3>
 		</div>
 	</div>
 </div>
 
 <!--Arranca formulario-->
-<div class="container py-4">
+<div class="container py-3">
 	<div class="row">
 		<div class="col-md-9 mb-md-0 mb-5">
-			<form method="POST" action="envios.php">
+			<form method="POST" action="envios.php" enctype="multipart/form-data">
 				<div class="form-group">
 					<input name="nombre" type="text" class="form-control" placeholder="Nombre">
 				</div>
@@ -61,8 +50,8 @@
 				</div>
 				<div class="form-group">
 
-					<select name = "area" class="mdb-select md-form">
-						<option value="" disabled selected>Indique con qué área de la empresa desea contactarse</option>
+					<select name="area" class="mdb-select md-form">
+						<option value="0" selected>Área que desea contactar</option> <!-- fixed eliminando "disabled" -->
 						<option value="1">Soporte Técnico</option>
 						<option value="2">Ventas</option>
 						<option value="3">Otros</option>
@@ -74,7 +63,11 @@
 						rows="5"></textarea>
 				</div>
 				<div class="form-group">
+					<input type="file" id="archivo" name="archivo">
+				</div>
+				<div class="form-group">
 					<button class="btn btn-lg btn-dark" type="submit">Enviar</button>
+				</div>
 			</form>
 		</div>
 	</div>

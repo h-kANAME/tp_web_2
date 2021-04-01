@@ -1,4 +1,5 @@
 <?php
+$titulo = 'KYZ Technology - Perifericos';
 include_once('inc/header.php');
 ?>
 

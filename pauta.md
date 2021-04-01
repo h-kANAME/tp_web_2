@@ -65,3 +65,39 @@ Todos los productos y sus atributos deben estar almacenados en un archivo. Lo mi
 Segunda entrega PAUTAS
 
 Sitio funcionando 100%
+
+Formato: PW2-GN-MM-DD-Apellido1-Apellido2-Apellido3-Apellido4.rar
+
+Listado de mejoras para el final. Se debe elegir al menos una:
+● Agregar campos al detalle del producto, o al formulario de contáctenos.
+✔ En la página de contáctenos permitir al usuario subir un archivo y guardarlo en
+una carpeta llamada “contactos”. 
+● Agregar un botón de carrito de compras que guarde el producto en un archivo
+en formato json, junto al resto de los productos agregados.
+● Agregar un formulario de suscripción a una lista de correo, que agregue la
+dirección de correo del usuario a un archivo json llamado “correos”.
+● Agregar una pantalla de pago del carrito de compras, que lea el archivo json,
+muestre todos los productos en una grilla y permita “pagar” o “eliminar” toda la
+compra con un botón de pago y otro de eliminar. En ambos casos se debe
+borrar el archivo. (También se pueden sugerir otras soluciones).
+● Agregar una página en la que solo se vean productos nuevos, agregando un
+atributo de “nuevo” si/no a cada producto.
+✔ Permitir bajar (exportar) a un PDF la información del detalle de un producto.
+● Validar los tipos de datos de los campos de los formularios con JavaScript.
+✔ Mostrar los mensajes de “Comentario Enviado” y “Consulta Enviada” con
+Javascript, por ejemplo, con una ventana modal.
+● Asociar funcionalidad a eventos de elementos HTML tales como OnCheck en un
+checkbox de algún formulario usando Javascript.
+
+//Mejoras aplicadas instancia FINAL
+
+1)Mensaje en title en caso de haber un error en el envio del correo. 
+2)Posibilidad de subir un achivo alojando el mismo junto a la identificacion del usuario (mail)
+3)Se agrego ventana modal de aviso correo enviado con éxito
+4)Se habilita la posibilidad de generar un PDF de la ficha tecnica del producto
+5)Se diseño nuevo logo para generacion de PDF
+6)Se corrigio el error que arrojaba en linea 35 de "archivos.php" quitando la propidad disabled de la clase del selector en "contacto.php"
+7)Se cambio input de comentarios por un button	para darle identidad a la accion (antes enviar, ahora comentar)
+8)Se crearon variables para identificar dentro de una estrucutra HTML las ventanas modales de envio de correo electronico.
+
+

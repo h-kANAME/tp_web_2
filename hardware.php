@@ -1,6 +1,8 @@
 <?php
+$titulo = 'KYZ Technology - Hardware';
 include_once('inc/header.php');
 ?>
+
 
 
 		<div class="container">
